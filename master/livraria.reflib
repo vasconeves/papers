@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+<manage_target braces="false" utf8="false"></manage_target>
+<taglist>
+  <tag>
+    <uid>0</uid>
+    <name>Type a tag</name>
+  </tag>
+  <tag>
+    <uid>1</uid>
+    <name>Type a tag</name>
+  </tag>
+</taglist>
+<doclist>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>2007ARA&amp;A..45..397U</key>
+    <bib_type>Article</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Statistical Properties of Exoplanets</bib_title>
+    <bib_authors>Udry, S. and Santos, N. C.</bib_authors>
+    <bib_journal>ap</bib_journal>
+    <bib_volume>45</bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>397-439</bib_pages>
+    <bib_year>2007</bib_year>
+    <bib_extra key="Doi">10.1146/annurev.astro.45.051806.110529</bib_extra>
+    <bib_extra key="Month">sep</bib_extra>
+    <bib_extra key="number">1</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>2004A&amp;A...415.1153S</key>
+    <bib_type>Article</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Spectroscopic [Fe/H] for 98 extra-solar planet-host stars. Exploring the probability of planet formation</bib_title>
+    <bib_authors>Santos, N. C. and Israelian, G. and Mayor, M.</bib_authors>
+    <bib_journal>åp</bib_journal>
+    <bib_volume>415</bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>1153-1166</bib_pages>
+    <bib_year>2004</bib_year>
+    <bib_extra key="Doi">10.1051/0004-6361:20034469</bib_extra>
+    <bib_extra key="Keywords">stars: abundances, stars: fundamental parameters, stars: planetary systems, stars: planetary systems: formation, stars: chemically peculiar</bib_extra>
+    <bib_extra key="Month">mar</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>1989GeCoA..53..197A</key>
+    <bib_type>Article</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Abundances of the elements - Meteoritic and solar</bib_title>
+    <bib_authors>Anders, E. and Grevesse, N.</bib_authors>
+    <bib_journal>\gca</bib_journal>
+    <bib_volume>53</bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>197-214</bib_pages>
+    <bib_year>1989</bib_year>
+    <bib_extra key="Doi">10.1016/0016-7037(89)90286-X</bib_extra>
+    <bib_extra key="Keywords">ABUNDANCE, CHEMICAL ANALYSIS, CHONDRITES, METEORITIC COMPOSITION, PHOTOSPHERE, SOLAR CORONA, ENERGETIC PARTICLES, ISOTOPES, SOLAR WIND, METEORITES, ABUNDANCE, SAMPLES, METEORITE, CI CHONDRITES, SUN, CORONA, PHOTOSPHERE, REVIEW, ELEMENTS, FRACTIONATION, SOLAR SYSTEM, NUCLIDES, SOLAR WIND, CHARGED PARTICLES, RARE GASES, REFRACTORY ELEMENTS, COMETS, SIDEROPHILES, VOLATILES, NUCLEOSYNTHESIS, HALLEY, COMPARISONS</bib_extra>
+    <bib_extra key="Month">jan</bib_extra>
+  </doc>
+  <doc>
+    <filename></filename>
+    <relative_filename></relative_filename>
+    <key>2006A&amp;A...449..809E</key>
+    <bib_type>Article</bib_type>
+    <bib_doi></bib_doi>
+    <bib_title>Abundance ratios of volatile vs. refractory elements in planet-harbouring stars: hints of pollution?</bib_title>
+    <bib_authors>Ecuvillon, A. and Israelian, G. and Santos, N. C. and Mayor, M. and Gilli, G.</bib_authors>
+    <bib_journal>åp</bib_journal>
+    <bib_volume>449</bib_volume>
+    <bib_number></bib_number>
+    <bib_pages>809-816</bib_pages>
+    <bib_year>2006</bib_year>
+    <bib_extra key="Doi">10.1051/0004-6361:20054534</bib_extra>
+    <bib_extra key="Keywords">stars: abundances, stars: chemically peculiar, stars: evolution, planetary systems, solar neighbourhood</bib_extra>
+    <bib_extra key="Month">apr</bib_extra>
+  </doc>
+</doclist>
+</library>

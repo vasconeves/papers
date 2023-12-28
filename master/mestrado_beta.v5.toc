@@ -1,0 +1,46 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {1.1}In the Beginning...}{3}
+\contentsline {section}{\numberline {1.2}The Radial Velocity Technique}{4}
+\contentsline {section}{\numberline {1.3}Photometric Transit Technique}{5}
+\contentsline {section}{\numberline {1.4}Astrometry}{6}
+\contentsline {section}{\numberline {1.5}Microlensing}{7}
+\contentsline {section}{\numberline {1.6}A Statistical 'Zoo' of Exoplanets}{8}
+\contentsline {section}{\numberline {1.7}The formation of planetary systems}{8}
+\contentsline {section}{\numberline {1.8}The Host Star Chemical Properties}{10}
+\contentsline {subsection}{\numberline {1.8.1}The Metallicity Distribution}{10}
+\contentsline {subsection}{\numberline {1.8.2}Abundance of Other Elements}{12}
+\contentsline {subsection}{\numberline {1.8.3}Correlations between Metallicity and Orbital Parameters}{13}
+\contentsline {section}{\numberline {1.9}Our work}{13}
+\contentsline {chapter}{\numberline {2}Determination of Chemical Abundances}{15}
+\contentsline {section}{\numberline {2.1}Introduction}{15}
+\contentsline {section}{\numberline {2.2}Local Termodynamic Equilibrium}{15}
+\contentsline {section}{\numberline {2.3}The behaviour of line strength}{17}
+\contentsline {subsection}{\numberline {2.3.1}The measurement of the EW}{17}
+\contentsline {subsection}{\numberline {2.3.2}The Abundance Dependence}{18}
+\contentsline {subsection}{\numberline {2.3.3}The Temperature Dependence}{18}
+\contentsline {subsection}{\numberline {2.3.4}The pressure dependence}{19}
+\contentsline {subsection}{\numberline {2.3.5}Microturbulence}{20}
+\contentsline {section}{\numberline {2.4}Calculation of the abundance}{21}
+\contentsline {subsection}{\numberline {2.4.1}Differential analysis}{21}
+\contentsline {chapter}{\numberline {3}Determination of the chemical abundances}{23}
+\contentsline {section}{\numberline {3.1}Spectral Data}{23}
+\contentsline {section}{\numberline {3.2}The HARPS Spectrograph}{24}
+\contentsline {section}{\numberline {3.3}Identification and selection of the Spectral Lines}{25}
+\contentsline {subsection}{\numberline {3.3.1}Using VALD to obtain the initial list of spectral lines}{25}
+\contentsline {subsection}{\numberline {3.3.2}Using IRAF to identify the 'good' lines}{25}
+\contentsline {subsection}{\numberline {3.3.3}Measuring the EWs of the solar lines with ARES}{26}
+\contentsline {subsection}{\numberline {3.3.4}Calculating new oscillator strengths}{27}
+\contentsline {subsection}{\numberline {3.3.5}A Test Using the Solar Abundance Values}{28}
+\contentsline {subsection}{\numberline {3.3.6}The molecular equilibrium}{28}
+\contentsline {subsection}{\numberline {3.3.7}Testing a small sub sample containing 20 stars}{28}
+\contentsline {section}{\numberline {3.4}Spectral analysis of the full sample}{31}
+\contentsline {subsection}{\numberline {3.4.1}Uncertainties}{31}
+\contentsline {subsection}{\numberline {3.4.2}Testing the stellar parameters}{31}
+\contentsline {chapter}{\numberline {4}Results: the Abundances of Stars with Planets}{38}
+\contentsline {section}{\numberline {4.1}Comparison of [X/H] Values with the Literature}{38}
+\contentsline {section}{\numberline {4.2}The [X/H] Distributions}{40}
+\contentsline {section}{\numberline {4.3}The [X/Fe] versus [Fe/H] plots}{40}
+\contentsline {subsection}{\numberline {4.3.1}Metallicity Anomalies in Planet Host Stars}{44}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{46}
+\contentsline {section}{\numberline {5.1}Conclusions}{46}
+\contentsline {section}{\numberline {5.2}Future Work}{47}

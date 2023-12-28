@@ -1,0 +1,449 @@
+\documentclass[dvips,12pt,a4paper]{report}
+\usepackage[dvips]{graphicx}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[portuges]{babel}
+\usepackage[small]{caption}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{fancyheadings} % entete et bas de page
+\usepackage{natbib}
+\usepackage[left=3cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{setspace}
+%\usepackage{natbib}
+%\singlespacing
+\onehalfspacing
+%\doublespacing
+%pour hautdepage
+%[] page im paire {} page impaire
+\lhead[\fancyplain{}{\sffamily \leftmark}]{}
+\chead{}
+\rhead[]{\fancyplain{}{\sffamily \rightmark}}
+\cfoot{}
+%\pagestyle{fancy}
+
+
+%\usepackage{graphicx}
+%\usepackage{txfonts}
+
+
+
+
+\title{Abundances of refractory elements in exoplanet host stars}
+\author{\\
+\\
+Vasco de Matos Ferreira Mendes Neves \\ [4mm]
+\\
+Department of Physics \\
+University of Aveiro \\
+Centro de Astrofisica da Universidade do Porto (CAUP) \\
+University of Porto
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+\\
+Orientation by:\\
+Alexandre Correia (UA) \\ Nuno Santos(CAUP)}
+\date{June of 2008}
+
+\begin{document}
+\maketitle
+%Abstract%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+ Aqui jaz o abstract. Ainda nao esta feito mas estara brevemente...no final...! Quando regressar aos ceus em toda a sua gloria...Que descanse em paz...por agora ;)
+\end{abstract}
+\newpage
+\tableofcontents
+\newpage
+
+
+%Introduction%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+%\addcontentsline{toc}{chapter}{Introduction}
+
+\section{In the beginning...}
+
+\indent\indent Since immemorial times man has asked himself if he was alone in the Universe. If there was life elsewhere beyond Earth. If there were other habitable planets in star systems other than his own.
+
+When the first exoplanet around a solar type star, 51 Peg, was discovered, by \citet{Mayor-1995}, \textcolor {red} {when it's host star spectra was gathered after light years of relentless travel through the dark void among the stars}, a first,tiny piece of the huge puzzle that could answer these ages old questions was put into place. This discovery turned out to be one of the biggest breakthroughs in astrophysics of all times and sent shock waves that rippled through the teeming masses of humanity: there are other star systems in the Universe beyond our own...what next?
+
+\indent Although this discovery and the others that followed shortly \textcolor{green}{[eg...REF]} only detected giant planets with masses in the order of magnitude of Jupiter, the seed of possibilities had already been casted and the impact of these discoveries not only had opened a new field in astrophysics but also the minds and imagination of everyone. The old questions were a little closer of being answered. They inspired passionate debates and new(old) questions arrived. Are there other earths orbiting other stars? Is life exclusive to earth or is it common throughout the galaxy and the universe? Does this life, if it really exists, evolved and gained intelligence? ...?...? And so on. 
+
+\textcolor {red}{Unfortunately, it does take endless hours of painstaking work and perseverance to find a tiny piece of the puzzle that on day  will answer these 'filosofical' questions in a scientific manner. But alas, we believe that the time will come when all of them will be answered.}. But let us now change subjects and move on to more pratical questions: the technique that allowed the discovery of these first 'giants'...
+
+\section{The Radial Velocity Technique}
+
+Those first discoveries, and most of the exoplanets that are found nowadays, are based in the Radial Velocity $(RV)$ Technique \textcolor{green}{[...]}. This technique consists in the detection of the Doppler shift produced in the star's spectrum  by the subtle 'wobbling' of the star due to the presence of a planet in her orbit. If the star is moving toward Earth its light will be shifted to the 'blue' (i.e. the lines will move to shorter wavelengths) if the star is moving away from Earth its light will be red shifted (i.e. the lines will move to longer wavelengths) [...] as we can see in Fig. (\ref{rvpic}). The radial velocity of the star can then be deduced from the displacement of the spectral lines. 
+\begin{figure}[h]
+  \centering
+  \includegraphics[height=5 cm]{pics/rvpic}\\
+  \caption[Illustration showing how the RV technique works]{Illustration showing how the Radial Velocity technique works.Credits:www.nasa.gov}
+\label{rvpic}
+\end{figure}
+
+With the RV technique we can only ascertain with relative precision some orbital parameters (the semi major axis of the planet's orbit, eccentricity and orbital period) and a lower limit of the planet's mass. We cannot obtain the exact value of the mass because we lack the value of the inclination of the orbit of the planet to the line perpendicular to the line of sight. This fact can be seen clearly in Eq. (\ref{vradial}),
+\begin{equation}
+ msin(i)=M^{2/3}(1-e)^{1/2}K\Big(\frac{P}{2\pi G}\Big)^{1/3},
+\label {vradial}
+\end{equation}
+where $m$ is the planet's mass, $i$ is the inclination, $M$ is the star's mass, e is the eccentricity, $K$ is the measured amplitude of the radial velocity, $P$ is the measured period of the star's wobble (that is equal to the planet's orbit around the star) and $G$ is the gravitational constant. This is the final step in the determination of the planet parameters. For a detailed demonstration refer to \textcolor{green}{[...]}. Moreover, the $RV$ technique is unsuitable to detect planets in stars that are too massive, are instable or rotate too rapidly. 
+\textcolor{red}{Sera q devo meter aqui uma figura com a mecanica e demonstrar esta equacao??? Estara no ambito do trabalho???}
+%Using kepler's third law, the period of the planet's orbit around a star (that is equal to the variation of the star's wobble) can be used to determine the distance of the planet to the star, 
+%\begin{equation}
+% r^3=\frac{GM_{star}}{4\pi^2}P_{star}^2,
+%\end{equation}
+%where $r$ is the radius of the planet, $G$ the gravitational constant, $M_{star}$ the mass of the star and %$P_{star}$ the observed period of the star's wobble.
+
+%The mass limit is due to the unkown value of the inclination of the orbit of the planet relative to the star, [ver %wikidopplerspectroscopy]
+%\begin {equation}
+%\label {eq 1.1}
+%M_{p}=
+%\end {equation}
+%, where $M_{pl}$ is the planet's Mass, 
+
+\section{Photometric transit technique}
+
+The photometric transit technique is quite simple: it consists in the measurement of the intensity of the star. If a planet crosses in front of the star, this intensity will drop by a small amount. The major limitation in using this technique is the fact that it can only detect orbits of planets aligned with earth. Unfortunately, the estimated percentage of planets aligned with us is very small. The other disavantage is its high rate of false detections, due to changes in the star's own brightness. The only way to be sure is to do a follow up with $RV$. The greatest advantage is that we can determine the radius of the planet from the lightcurve. We can see an example of a phototransit event in Fig. (\ref{photot}).
+
+If we combine the information obtained in $RV$ with the one obtained in a photometric transit \citep{Charbonneau-2000}, we can determine the exact mass and density of the planet and estimate its composition. As we can see, these techniques are very complementary. 
+
+\begin{figure}[h]
+\centering
+\subfigure{\includegraphics[height=5 cm]{pics/phototransit}}
+\subfigure{\includegraphics[height=5 cm]{pics/microlensing2}}
+\caption[Example of a phototransit event]{bla bla} 
+\label{photot}
+\caption[Example of a microlensing event]{bla bla} 
+  \label{microlen}
+\end{figure}
+
+\section{Microlensing and other techniques}
+
+\indent In this context we should not forget the role of a promising new technique, microlensing \textcolor{green}{(Beaulieu 2006)}, also very complementary of $RV$, with the potential of detecting sub earth mass bodies in long orbits and with a much larger range of detection (up to 10kPc). Microlensing occurs when the gravitational field of a star acts like a lens, magnifying the light from distant stars. If the star that provokes the lensing has a planet, then the planet's field can make a detectable contribution, as we can see in Fig. (\ref{microlen}). We can estimate the mass, period and semi major axis of the planet with this method. However, it has a great disavantage: the lensing is difficult to reproduce because the chance alignment may never occur again. Moreover, the detected planets need to be far away from us, typically in the galatic bulge, which makes follow up by other methods impossible.
+
+There is also the pulsar timing technique to detect planets in pulsars but it will not be considered as it only works to detect planets in pulsars. Therefore, it is out of the scope of this work. 
+
+All methods of planetary detection past and future can be reviewed in \textcolor{green}{Perryman et al. (2005)}.
+
+\section {Spectra from other worlds}
+
+\indent Against all expectations, the transit technique also allowed the first detection of the signature of Sodium, Carbon and Oxygen in HD 209458b, a hot Jupiter, with the Hubble Space Telescope $(HST)$ \textcolor{green}{(Charbonneau et al 2002)}. In 2007, it was discovered the first clear sign of water vapor, also on a hot Jupiter, HD 189733b \textcolor{green}{(Tinetti et al (nature VER))}. The detection of methane followed a few months ago \textcolor{green}{[referencia...]}. This means that we can now detect some elements that are precursors of life as we know it...the firsts steps towards detecting life in another world. 
+
+However, the discovery sought by all is an earth type planet capable of supporting life. The smallest planet yet discovered is GJ 581c \textcolor{green}{(Udry et al. (2007))} with a minimum mass of 5 earth masses and a estimated radius of 1.5 earth radius. This planet was detected by $RV$ and it's on the limit of the detection. But that's not all: this 'super-earth' resides inside the habitable zone of that star. It would be of great interest to detect a transit of this world in order to acquire his spectra. Nevertheless, we will have more data regarding this and other interesting planets very soon, with the upcoming ground and space missions \textcolor{green}{(see Perryman et al. 2005)}. 
+
+\section {A statistical 'zoo' of exoplanets}
+
+\indent Up to now, and according to the `The Extrasolar Planets Encyclopaedia', there were 287 planet candidates detected in 248 planetary systems, which gives 27 multi planet systems (http://www.exoplanet.eu/catalog.php). The biggest of these systems is the 55 Cancri bearing a whopping 5 planets \textcolor{green}{(Fischer et al. 2007)}. Looking at all the data, we can admire the real 'zoo' that exoplanets became: Orbiting stars of spectral types from F to M, we get minimum masses from $5 M_{\oplus}$ to 20 $M_J$ (but we must remember that all bodies with more than 10 $M_J$ are probably Brown Dwarfs \textcolor{green}{[cite...]}) , periods from a little more of 1 day to 5218 days and eccentricities from perfect circular orbits to extreme values of more than 0.90. There are planets as close as $0.0177 AU$ and as far as $670 AU$ from its star and planets orbiting stellar binaries.
+
+All this information will be of great help in setting the constraints to planetary formation, internal structure and atmosphere models. To achieve this we take all this data and we look at the distributions of the eccentricities, periods and planetary masses and we try to relate  and to other measured parameters like the metalicity, effective temperature, gravity of the star, etc...
+
+\section {The formation of planetary systems}
+
+\indent Despite all this bounty of data translated into such a diversity of planetary systems, we still have a cloudy view of the physical mechanisms behind the formation of planetary systems. The appearance of giant planets close to the star and the existence of bodies with high eccentricity objects completely changed the way simulations were made. Quite simply, these cases never appeared because the constraits used in the possible scenarios were based only on our solar system...
+
+Nowadays, there are two major theories about the formation of exoplanets: accretion of solids and direct gravitational instability. 
+
+The first one tells us that planets are formed by the accretion of dust grains due to gravity that continuously grow and collide with each other until they formed planetesimals, with a few kilometres in diameter. These bodies continue to grow by further collisions and until they reach bigger sizes, on the course of the next million years. If the mass of a protoplanet reach 10 to 15 $M_{\oplus}$, before the dissolution of the disk of gas of the proto circunstellar disk, a runaway accretion of the gas will follow and a gas giant will form. On the contrary, if the mass doesn't reach the critical value necessary for runaway accretion, a smaller rocky planet or Neptune type gas planets will form \textcolor{green}{(Pollack et al. 1996, Alibert et al 2006)}. 
+
+The second one states that the planets formed by disk instability (ie the solar nebula breaks up through its own self gravity into clumps and gas and dust rapidly forming protoplanetary bodies) are expected to be massive gas giants, forming really fast ($~10^3$ years compared to the accretion $~10^6$ years in an optimistic scenario) \textcolor{green}{(Boss,A. 1997)}. The planets could then migrate toward the star or remain more or less in the formation location. This will depend mainly on the planet-disk interactions \textcolor{green}{(Trilling 1998)}.\textcolor{red} {e nao se poderao afastar como nos caso dos planetas gigantes exteriores do ss???}
+
+\section{The host star properties}
+
+In this section, we will discuss the properties of the planet host stars. These properties have a very important role in the formation and evolution of planetary systems. 
+
+As the number of exoplanets increase, the analysis of the high resolution spectrum of their host stars is giving us a detailed statistical view of the possible differences between the properties of planet host stars and stars without  planets. The following discussions are valid, of course, for giant planets, which comprise almost all the  planets detected so far. 
+
+\subsection {The [Fe/H] statistical anomaly} 
+
+The vast majority of the host star's  analysis are of spectroscopic nature and are based mostly on Iron abundances. These have revealed that a giant planet have a much higher probability of forming when its host star has, on average, a greater metallicity than of its neighbours, at least for [Fe/H] above the solar value \textcolor{green}{[eg Gonzalez 1998, Gonzalez et al 2001, Laws et al 2003,Santos et al 2001a,b, 2003, 2005,......]}. 
+
+Immediately after this observation, two different interpretations for this anomalous metallicity arose: the primordial origin and the self enrichment hypothesis. 
+
+The first one defends that the high metal content of the star originated from the primordial cloud that gave origin to the star system. The detected metallicity is nothing more than a consequence of gallactic evolution. The host star planets are simply in the high mettalicity end of the distribution. This scenario was favoured in recent studies \textcolor{green}{(eg Santos et al 2001a,b,2003,...)}. 
+
+The second one posits that the high metalicity found in some stars is due to the late accretion of planetary material. Some evidence was found for this latter scenario: \textcolor{green}{Israelian et al (2003)} found out that HD 82943 had a significant amount of Li in its stellar spectrum. This is only possible if the star had engulfed lots of planetary material. Hints of pollution were also found by \textcolor{green}{Gonzales (1998)} and \textcolor{green}{Law \& Gonzales (2001)} in 16 Cyg  in the form of a Lithium and Iron enhancement. However, \textcolor{green}{alguem aqui q se acuse...} noticed that the material that is needed to change a star's metal content is much bigger that the what was detected, especially if we consider pollution as the dominant factor in the determination of a star's metallicity. 
+
+These two mechanisms leave different imprints: in the former case the star formed in a high mettalicity cloud will always be metal rich; in the latter case, the high metallicity is confined to the star's convective zone and the interior of the star is left metal poor. In this context it's important to emphasize that F dwarfs with relatively thin convective zones will exhibit a greater degree of pollution \textcolor{green}{(Valenti\&Fischer 2005)}. Therefore the upper part of the distribution of metal abundance of a F dwarf should exceed the highest value of G dwarfs, and this should be detected. On the other hand, this pollution will dillute as time pass, mixing with deeper, unenriched layers. Moreover, \textcolor{red}{isto n esta acabado...n tive tempo!!!} \textcolor{green} {fiquei aqui...aparentemente...}
+(...)
+
+On the top of that, it was shown that the frequency of giant plants is a strong function of the metallicity of its host star: on other words, the high metallicity enhances the formation of planets because, quite simply, there's more material to aggregate \textcolor{green}{(Santos et al 2001a,b,2003,Fischer and Valenti 2005, ...)}. This result has, of course, important consequences in constraining the parameters for the computational models of planetary systems \textcolor{green}{(Pollack et al 1996, Boss 2002)}.
+
+It's true that pollution can be important in a few isolated cases. However, the most accepted view today is that pollution has a small part in the global metallicity of the star but it's not the dominant process. \textcolor{green}{(Ecuvillon et al 2006)}. 
+
+\subsection {Abundances of other elements}
+
+A study on the abundances of elements other than Iron might give us clues to this important question. 
+
+Many studies were made to analyze the abundances of light elements \textcolor{green}{(eg  Israelian et al 2003,2004,Sandquist et al 2002,...)} and other elements \textcolor{green}{(eg Gonzalez 2001, Fischer and Valenti 2005.....etc)}.  
+
+Refractory elements were studied by \textcolor{green}{Bodaguee et al (2003)} and Na, Mg and Al were studied by \textcolor{green}{Beirao et al. (2005)}. The last two studies required a uniform high metalicity comparison field sample, because they lacked single stars with Fe/H values higher than 0.1. 
+
+This was achieved by Gilli et al. (2006) that also provided new results using high quality spectra from a group with 101 planet host stars and 93 stars with no known planetary companions, in a uniform metallicity range between -0.7 and 0.45. 
+
+All these studies revealed a few possible but unclear anomalies. In our study, with the high precision spectra, we will try and see if those anomalies are just bad data or if there is really something there. We will directly compare our results to this paper as we will see later on.   \textcolor{red}{[Falar no problema dos erros sistematicos na parte 2 devido as amostras de comparacao inomogeneas - source of systematic errors!!!]}
+
+Is is known that light elements such as $Li$ and $Be$ can be very important tracers of the history of solar type stars and therefore can be used to distinguish between different planet formation scenarios (Sandquist et al 2002). These light elements, as well as others, volatile and refractory, can also give us hints about pollution in the chemical composition of a star, if an excessive abundance of $_6Li$ or the ratio $_7Li$/$_6Li$ is detected (ver referencia!!! Sandquist?) or if an overabundance of refractory elements over volatile is observed. However the results obtained are not conclusive (Ecuvillon et al 2006) in detecting anomalies in elemental abundances or hints of pollution.
+
+Following the studies made for the abundance of Iron (Santos et al 2004.....) and for other elements (.....) we will make, on this work, a detailed statistical analysis of the abundances based on a subsample of the HARPS GTO planet search program containing 451 stars. Of these, 66 are planet hosts and the other 385 stars are dwarfs with no known planet. In the following chapters we will present a detailed analysis of all the steps in obtaining the abundances of all the elements studied, followed by the discussion and interpretation of the results obtained.
+
+To conclude, we would like to suggest some reviews about the statistical results of exoplanet characteristics made by Udry, \textcolor{green}{Fischer \& Queloz (2007)} and \textcolor{green}{Udry \& Santos (2007)}. 
+
+\chapter{The HARPS Spectrograph}
+
+VER TABLE 1 messenger para dados correctos!!!
+\section {Introduction}
+
+In this section we will make a brief discriptions of the technical details, capabilites and ...  of the HARPS spectrograph. For a detailed description of the basic physics, equations and tools behind the operation of a general spectrograph, the prospective reader can consult, for instance, chapter 3 of Gray (2005).
+
+The scientific proposal for HARPS was made in 1999, one year after the decision to build it, following a flurry of exoplanet discoveries that motivated the need for a more potent, precise and dedicated instrument (sci proposal HARPS 1999). The main objective was to reach the 1m/s threshhold for detecting lower mass planets by Radial Velocity with unparalelled accuracy. The HARPS spectrograph was not only made for quality but also for quantity. The observational challenge lied now on observing as many planet host systems as possible in the five year span of the program, in order to have sufficient quality data to do a statistical treatment of all the planetary parameters possible with this technique: distance to host star, minimum mass of the planet, period, excentricity. Moreover, HARPS high spectral resolution (115.000) and S/N ratio has permitted to achieve never seen before spectra of the host stars. From all this data, we hope to reach a better understanding of the physical processes underlying planetary formation. This spectra could also be used to statistically analyse the planet host stars parameters with those of field dwarfs, like, for instance, abundances from several elements, light, volatile and refractory, effective temperatures, spectroscopig $log g$,etc. What are the possible relations among all these parameters, exoplants reserachers asked to HARPS... 
+
+What do we need to achieve these goals? We need a high resolution spectrograph, with a large spectral window, a very stable velocity reference and a fine data reduction process. The technique used to reach this high precision is based on a two fiber fed echelle spectrograph, one fibre for the star and the other iluminating a Thorium-Argon lamp used as reference, allowing the follow up of any instrumental drift. The stellar and reference velocities are calculated by a cross correlation function of both sources. 
+
+\section{limitations}
+
+How can we distinguish the motions of the photosphere due to pulsation and/or stellar activity related to the rotation of star spots or convective inhomogeneities with the motions due to the planets proper? A quantification of these effects can be achieved by comparing the weighted radial velocity dispersion with the typical stellar parameters (spectral type, rotation, magnetic activity) similar to the star being observed. The amplitude of radial velocity variations provoked by instrinsic phenomena may reach some tens of $m/s$ and can therefore inhibit or confuse planet detection. To give an idea, Jupiter's perturbation on the sun velocity is  ~ 12.5 $m/s$.
+The present instrumentation accuracy may be limited either by photon noise or by instrumental errors. When aiming at $1m/s$ we must be aware of both sources of errors. 
+Considering the photon noise limit, the possible RV precision depends on three factors: the measured flux $S$, the overall spectral resolution $R$ and the observed spectral range $\lambda\lambda$, according to Hatzes and Cochran 1992 (n consigo encontrar artigo!!! 
+\begin{equation}
+\frac{1}{\sigma v_r}\propto S^{0.5}\lambda^{0.5}R^{1.5}
+\end{equation}
+The best way to increase the RV precision is to increase as much as possible the resolution of the spectrograph. Unfortunately this leads to large instrument size, without the use of adaptative optics or image slicers, which were not adequate to HARPS. The solution was to install the largest echelle grating possible. The ideia was to increase the resolution to the point where the stellar spectral lines start to be resolved. The comprimise for $R$ was set at ~ 100.000. Even at this high resolution, slit losses remain below 50\%. 
+
+\section{Comparing HARPS with other spectrographs}
+How does HARPS spectrograph fare agains other similar instruments? In the following table, we can observe a comparison table of instrument overall eficiencies. The coefficient $Q_{night}/Q_{HARPS}$ represents the efficiency of the instrument to reach a given photon-noise precision per observing night, compared to HARPS, taking into account the telescope size, the spectral bandwidth, resolution and transmission differences between the spectrographs. The technique is ThAr lamp if the number of fibers are shown. Otherwise it's the Iodine Technique. $Q_{year}/Q_{HARPS}$ corresponds to the same value integrated over 1 year, taking into account the time allocation for planet search only. 
+
+As we can see, HARPS is superior to every instrument on the table, exept the VLT UVES with the FLAMES link due to its multi fibre configuration. The HARPS supremacy is even greater if we take into account the efficiency coeficient per year that includes telescope time for planet search of each instrument. 
+
+The improvement in the precision of RV measurments from 5-10 $m/s$ down to 1 $m/s$, will largely contribute to remove biases in the detection of extra solar planets.  This will permit the detection of very light giant planets only with one tenth of the mass of saturn, although terrestrial planets should be out of reach if the 1 $m/s$ limits apply throughout the lifetime of the instrument (obviamente que nao). -- ver figura 8 se n tiver noutro sitio. 
+
+\section{Instument Overview}
+
+HARPS stands for \textbf{H}igh \textbf{A}ccuracy \textbf{R}adio \textbf{V}elocity \textbf{P}lanetary \textbf{S}earcher and is an instrument designed to measure high precision and high resolution Radial Velocities (RV). Its main goal is to reach a RV accuracy of 1 $m/s$ for slowly rotating solar type stars. This never before reached precisions enable the detection of low mass extra solar planets (a little smaller than Saturn). 
+The design of HARPS was based on previous observational programs like ELODIE and CORALIE during the past 10 years. The basic design of HARPS is very similar to these. The main advantages of harps are as following:
+\begin{itemize}
+ \item Greater instrument stability. The spectrograph is installed in a sealed and evacuated enclosure with low temperature. This almost completely eliminates drifts in RV due to temperature, pressure or humidity variations.
+\item Increase of S/N. The 3.6m ESA telescope on witch HARPS is installed is bigger than it's predecessors. Therefore, the S/N ratio is better. Moreover, the resolution of the CCD is increased by a factor of two and this also permits to reduce intrumental errors.
+\item Improvement of online data reduction. includes better corrections for instrumental effects and is faster.
+\end{itemize}
+
+HARPS is a fibre-fed, cross dispersed echelle spectrograph. It operates at 17$^o$C constant within  0.005$^oC$ RMS, with a pressure < 10$^{-2}mbar$. It is located in the Coude' floor of the 3.6m telescope. 
+Two fibers, an object and a reference fibre fed the spectrograph with light from the telescope and from the calibration lamps. The light is reimaged by the internal optics onto a mosaic of two 2k4 CCDs were two spectra of 72 orders are formed. The spectral region goes from 380 to 690nm. At the resolution of 115.000 each spectral element is sampled by 3.2 CCD pixels. A summary of the specs are shown below (messenger 114). 
+The optics are mounted on a 2.5m optical bench made of plated steel. The spectrograph has no moving parts and is located inside a vaccum vessel in a thermally stabilized enclosure.  
+The illumination is critical for RV precision. This is guaranteed thanks to the light scrambling properties if the optic fibres. 
+HARPS is an ordinary spectrograph. However it distinguishes itself mainly by his incredible stability:The ThAr reference is able to detect even the tiniest of instrumental drifts. Nevertheless lots of efforts was put into place to make HARPS intrinsically stable, in order to avoid any kind of second order intrumental errors. Consequently, the spectrograph operates in low vacuum since pressure variations may produce huge drifts in the order of 100m/s per mbar. The pressure was put under $10^{-2}$ mbar so that the drifts do not exceed 1m/s per day. Temperature was also controlled...When the instrumental noise produced by the thermal dilatation of the CCDs due to tiny temperature variations is removed we get dispersion values consistent with photon noise of the ThAr reference lamp. This technique can track drift variations at 0.1 $m/s$. Factors like resolution, optical efficiency, size of instrument and telescope, fiber diameter, must be balanced in order to have the smallest instrumental errors. 
+After several tests, the attained value for the HARPS precision was well below 1 $m/s$. Even on the time scale of a comission (2 weeks) we could obtain values of dispersion no greater than 1 m/s. This same level of precision was obtained even in surveys with a timescale over 4 months. At this precision level, we must count that one of the most probable sources of dispersion is the star itself (pulsations, activity, jitter). 
+The data analysis of all the accumulated observations are still being done in order to determine  which effects are limiting the precision of RV measurements. Disentangling noise and systematics from instrumental and stellar origin in not a trivial task. It needs time and lots of data. This will be very important for the preparation of the next generation instruments like CODEX on OWL telescope. 
+The best residuals obtained are as low as 0.2 m/s which indicates that with enough observations, it will be possible to detect a 3 $M_\oplus$at 1 AU. But it seems reasonable that it is possible to average out most of the perturbing effects (stellar oscilations, activity jittering...). when observing in timescales compared to the periods of these effects. 
+Efforts in the improvement of calibration with the ThAr lamps using a new HARPS made atlas with very high resolutions has enabled to reach new global uncertainties in the calibration  (RV zero point) from 0.8 m/s to 0.2-0.4 m/s. 
+
+\section{Other error sources}
+
+The most obvious error source is photon noise: it is the one coming from the finite number of photons collected in a stellar spectrum. The fundamental uncertainty on the RV depends both on the number of recorded photons and on the intrinsic slope of the spectrum. 
+Guiding noise is the noise that originates from changes in the fibre illumination. This is very critical. This can cause spurious RV variations. With proper software to monitor the centering of the fibre at the middle of the stellar image the guiding noise contributes no more than 0.3 m/s to the global dispersion.
+Stellar Oscilation Noise. Solar type stars show p mode oscilations with periods of a few minutes and amplitudes of a few m/s. However some of these signals can superimpose. The present strategy regarding this noise is to integrate over a few characteristic periods to average out these effets as much as possible. This maintains this noise below 1 m/s.
+Stellar activity related jitter. Magnetic phenomena at the surface of solar type stars can induce RV perturbations in the order of 100 m/s. This prevents completely the use of RV tequenique to detect planetary companions. Stars in the HARPS catalogue are chosen for showing low chromospheric activity and slow rotation. to ensure that these effects stay below a few m/s. Hopefully, the binning of data points over the stellar rotation will permit to average out these effects, but this is still on an experimental phase.
+
+
+
+
+
+
+\section{The Telescope}
+The ESO La Silla 3.6m telescope, home of the HARPS spectrograph, is equatorially mounted. HARPS use the Cassegrain focus. A general discription of the telescope can be found here: http://www.ls.eso.org/lasilla/sciops/3p6/. 
+
+\section{Spectrograph}
+
+The Vaccum vessel protects the spectrograph proper from variations in temperature, pressure and humidity. Is is evacuated by a turbo molecular pump before the start of operations. The vaccum is regenerated once or twice per month. 
+
+The Spectograph itself is a cross dispersed echelle spectrograph, similar to UVES @ VLT. The echelle grating is operated in a quasi Littrow operation (ver). An f/2.1 parabolic mirror serves as collimator. A dioptric camera images the cross dispersed spectra side by side onto a mosaic of two 2kx4k EEV CCDs. The spectral range goes from 378 to 691 nm. All components are mounted on a stainless steel optical bench. The optical paremeters of HARPs are those of Table X.X.
+
+\section{Detector System}
+
+Harps employ a mosaic of two EEV type 44-82 CCDs. The spectral format is 4096x4096 pixels. Its properties are summarized in the following table. 
+
+\section {Calibration Unit}
+
+It provides the instrument with light for wavelength and flatfield calibration. This calibration is based on a set of Thorium-Argon and halogen lamps. The calibration fibre pair connects the calibration unit with the fibre adapter at the Cassegrain focus. 
+
+\section {Data reduction}
+
+The data reduction pipeline is a software developed by ESA which allows the reduction of the spectra in almost real time. 
+
+
+Both stray light and ghosts are present at some level, most noticeable in the blue part of the spectrum. This is due to the fabrication process of the grid itself (defects). The characteristic optical data of HARPS can be seen in Table X.X.
+
+\chapter{Determination of Chemical Abundances} - \textcolor{red}{ver pagina 177}.
+
+In this chapter we will do a brief passage about the basic physics behind the determination of chemical abundances from the individual spectral lines. We will follow closely chapter 13 (The behaviour of spectral lines) and 16 (Chemical analysis) of Grey (2005). 
+
+If we take a good look at a regular stellar spectra we can easily identify the presence of many elements in the presence of spectral lines that correspond to electronic transitions among the different levels of its atoms. This is especially true for cooler stars of the FGKM end of the HR diagram. In general, the results of chemical analysis show us that hidrogen is the most abundant element (~90\%) in the stellar photosphere, followed by helium (~10\%). The remaining elements, refered as 'metals' only account for a tiny percentage of the abundance. However, most spectral lines have origin in these elements.  This lines show differences in shape and strength that derive directly from the conditions in the photosphere of the star. The strenght of line absorption depends on the number of absorbers that correspond to that transition. Then, the atomic level populations are very important. In this way, we can follow the basic equations (...)
+
+Knowing the line shapes and strengths, we can derive the fundamental stellar parameters, like the spectroscopic measurement of effective temperature, surface gravity, radii and chemical composition. 
+
+Photospheric velocity fields, the turubulance, introduce Doppler shifts. that will be reflected in the spetra. The small scal motion, microturbulence, can affect the radiation transfer. The large scale motions, macroturbulence and rotation introduce a broad distribution of Doppler shifts that reshape the line profile.  (introduzir aqui as eq basicas??)
+
+If we consider that collisions (rather that radiation) dominate the excitation of the atoms (as in the case of sun type stars - sera???) we can expect that the general ratio between two populations is 
+\begin{equation}
+\frac{N_u}{N_l}=\frac{g_u}{g_l}e^{-\Delta\chi/kT},
+\label{Boltz}
+\end{equation}
+where $N_u$ is the population of the upper level, $N_l$ is the population of the lower level, $g_x$ is the degenerency of the level $x$, h is the Plank's constant, $\chi$ is the difference between excitation potentials, k is the Boltzmann's constant and T is the temperature. 
+Similarly we can express the well known Boltzmann Equation,
+\begin {equation}
+\frac{N_n}{N}=\frac{g_n}{u(T)}e^{-\chi _n/kT},
+\label{Saha}
+\end {equation}
+where $u(T)=\Sigma g_ie^{-\chi _i/kT}$ is the partition function. This equation is often expressed in powers of 10 becaming
+\begin{equation}
+ \frac{N_n}{N}=\frac{g_n}{u(T)}10^{-\theta\chi_n},
+\end{equation}
+with $\theta=log(e)/kT$.
+The ionization for the collisison dominated gas can be calculated using Saha's Equation:
+\begin{equation}
+\frac{N_1}{N_0}=\frac{(2\pi m_e)^{3/2}(kT)^{5/2}}{h^3P_e}\frac{2u_1(T)}{u_0(T)e^{-I/kT}},
+\end{equation}
+where $N_1/N_0$ is the ratio of ions to neutral atoms, $u_1/u_0$ is the ratio of ionic to neutral partition functions,$m_e$ is the electron mass and $P_e$ is the electron pressure.
+
+These are the basic equations needed for...bla bla
+
+If we have an equilibrium situation, for each emmited photon there must be another that is absorbed. The source funcion, that can be understood as the specific intensity emitted at some point in a hot gas (the ratio of emission to absorption), can be written as
+\begin{equation}
+ S=\frac{2h\nu^3}{c^2}\frac{1}{e^{h\nu/kT}-1}=B(T).
+\end{equation}
+The source function is therfore equivalent to a absorption coefficient and a line is formed in LTE. As we will see in the following chapters, LTE will be used to calculate our model atmosphere. We must recall that the temperature in the LTE aproximation is the same for all physical processes: thermal velocity distributions, ionization equilibrium, excitation of atomic populations. It's a incredible simplifications over the real problem but it is very practical. If there are anomalies in the calculation of the abundances we will treat them as non LTE deviations. The most importante non LTE effect is greater ionization but this is only important in the brightest stars. 
+
+In the computation of a line profile in LTE, Scattering is ignored and pure absorptin is assumed as the mechanism of interaction between gas and light. LTE is, of course, an approximation, but it is acceptable for the cases when the ratio of collision to radiation induced transitions is large, as it is the case for star's similar to the sun. The details of the computations are not the objective of this work, so we will just skip them. A computation of this kind is called spectrum synthesis. In the case of a weak line, we expect the flux  to mimic the shape of $\ell_v$. We can write the profile
+
+\section{The behaviour of line strength}
+
+The strength or equivalent width of a spectral line depends in part upon the width of the absorption coefficient $\alpha$ which in turn is a function of the thermal and microturbulent velocities. This also depends on the number of absorbers, derived from Eq. \ref{Boltz} and \ref{Saha}. This implies that line strength depends on temperature, electron pressure and atomic constants. This is valid for weak lines (ie lines with EW < 250 mA (verificar este valor). The stronger lines may depend on other factors. 
+
+\subsection{The Temperature Dependence}
+
+Temperature is the most important variable in determining the line strength.  This can be seen easily in the excitation and ionization process equations. In the solar case, the lines strength generally decreases with temperature. \textcolor{red}{sera q vale a pena meter aqui as equacoes??}
+
+
+\subsection{The pressure dependence}
+
+In accounting for pressure effects we must consider gas pressure ($P_g$) and electron pressure ($P_e$). In cool stars the pressure can be approximated by $P_g=const g^{2/3}$ and $P_e=const g^{1/3}$. Therefore pressure can be translated into approximate gravity dependences for the F,G and K stars, which is our case 
+
+It's important to emphasize that pressure effects in stellar spectra are much weaker that temperature effects. For weak metal lines in cool stars, we can enumerate the following rules, based on Eq. \ref{Saha}:
+
+\begin{itemize}
+ \item weak lines formed when most of the element is in the next higher ionization stage are insensitive to pressure changes.
+\item weak lines formed where most of the element is in that same ionization stage are pressure sensitive: lower pressure cause greater line strength.
+\item weak lines formed where most of the element is in the next lower ionization stage are very pressure sensitive. Lower pressure enhances the lines.
+\end{itemize}
+
+
+\textcolor{red}{sera necessario meter as equacoes???}
+
+\subsection{The abundance dependence}
+
+As the abundance increases, line strength also increases. However the EW does not change linearly with the Abundance. In the following picture we can have a qualitative ideia of the evolution of EW with abundance. This is the typical behaviour for weak lines in solar type stars.  
+\textbf{mais nada?????????????}
+
+\section{What can be determined}
+
+We start in the lines of absorption ending with the abundances of the elements.
+In this approach we are going to follow the curves of growth are implicit. The abundances are ajusted util the computed or synthesized spectrum looks like the observed one. We never obtain the abundance independent of the following stellar parameters: Temperature, Surface Gravity, microturbulence and Metallicity. Laboratory measurements of the oscillator strength are aquired in a database and used as starting points to obtain the experimental $log(gf)$. 
+By means of differential analysis or, in other words, comparing one star (normally the Sun) with another (in this case a star similar to the Sun) the oscillator strengths cancel out and the ratio of the abundances in the stars is known. This can only be applied to stars with similar stellar parameters, especially effective temperture and surface gravity. If there are errors involved in the calculations, they are the same for both stars and by the same amount and they will be averaged out.
+We need to note that deviations from LTE typically cause errors of no more than a few per cent. 
+We also need to note that this abundance is only valid in the atmosphere of the star. The abundance of its interior might be totally different. 
+\textcolor{green}{VER PAGINA 386 --> meter estas formulas? perguntar ate onde ir!!!!!} \\
+
+The calculation of the EW is made integrating across the spectral line,
+\begin{equation}
+ W=\int_{0}^{\infty} \frac{\Im_\nu-\Im_c}{\Im_c}d\nu (meter aqui imagem)
+\end{equation}
+
+If $log(gf)$ is known independently then the abundance can be calculated. PARA FALAR DISTO TINHA Q FALAR DA TEORIA TODA	ver melhor Direct Computational analysis (pag. 387)
+
+\subsection{Temperature effects}
+
+If a careful analysis is performed the errors derived from temperature should not exceed 100K and might be smaller than that. A simple way to test this effects is to repeat the calculation changing only the temperature and see the output of the abundance. This should not be a serious problem if the determination of the temperature is acceptable.
+
+\subsection{Surface gravity effects}
+
+Surface gravity can change the percieved abundances of a certain element. In solar type stars this will not affect neutral lines. However, ionized lines will suffer from gravity effects. There is a linear relation between the variation of log(A) and he variation of log(g). The EW of lines of ions are sensitive to gravity roughly ~ $g^{-1/3}$ which means that $A$ will vary as $g^{1/3}$. If log(g) is known then the neutral and ion lines should give the same abundance. If log(g) is unknown, it can be determined by forcing the ion and neutral solutions to give the same abundance (spectroscopic gravity). But on this case the abundance is based completely on the ionization stage that is not dependent from gravity. 
+
+\subsection{Microturbulence}
+
+Microturbulence is almost always incorporated into abundance analysis because it explains that the EW of saturated lines are greater than predicted by models based on thermal and damping broadening alone. The Fig. (X.X) shows how microturbulence delays the saturation. This is much more important in strong lines \textcolor{green}{(entao pk raio e q se aplica na nossa analise????)}. The chemical abundances deduced from weak lines are not influenced by these mechanisms.
+
+\section{Derivation of Abundances}
+
+The abundances are derived from a model atmosphere calculation of a curve of growth for each line. The abundance is simply read from the curve for the line simply by entering the measured EW. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%------------------------------------------------------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------------------------------------------------
+\newpage
+%\addcontentsline{toc}{chapter}{Bibliography}
+%\bibliographystyle{plainnat}
+%\bibliography{report}
+
+%\newpage
+%\addcontentsline{toc}{chapter}{\numberline{ }List of Figures}
+%\listoffigures
+%\newpage
+%
+%\newpage
+%\addcontentsline{toc}{chapter}{\numberline{ }List of Tables}
+%\listoftables
+%\newpage
+
+%\addcontentsline{toc}{chapter}{\numberline{ }Anexos}
+%\bibliographystyle{plain}
+%\bibliography{mylib}
+
+
+\bibliographystyle{aa}
+\bibliography{mylib}
+
+
+\end{document} 
+
+%FIGURAS%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+\begin{center}$
+\begin{array}{cc}
+\includegraphics[scale=0.25]{figs/} &
+\includegraphics[scale=0.25]{neptune_v16_1_100_10d6_exc_PT_1930PL.eps}
+\end{array}$
+\end{center}
+\caption[Varia��o da excentricidade de Plut�o.]{Gr�fico da varia��o da excentricidade de Plut�o ao longo do tempo. A imagem da esquerda foi obtida para 300 mil anos e a imagem da direita para 10 milh�es de anos. A excentricidade m�dia � $\bar{e_1} \sim 0.24$.} \label{fig:exc1930PL}
+\end{figure}

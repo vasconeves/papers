@@ -1,0 +1,58 @@
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {1.1}In the Beginning...}{3}
+\contentsline {section}{\numberline {1.2}The Radial Velocity Technique}{4}
+\contentsline {section}{\numberline {1.3}Photometric Transit Technique}{5}
+\contentsline {section}{\numberline {1.4}Astrometry}{6}
+\contentsline {section}{\numberline {1.5}Microlensing}{7}
+\contentsline {section}{\numberline {1.6}A statistical 'zoo' of exoplanets}{8}
+\contentsline {section}{\numberline {1.7}The formation of planetary systems}{8}
+\contentsline {section}{\numberline {1.8}The host star properties}{10}
+\contentsline {subsection}{\numberline {1.8.1}The Metallicity Distribution}{10}
+\contentsline {subsection}{\numberline {1.8.2}Abundances of other elements}{12}
+\contentsline {subsection}{\numberline {1.8.3}Correlations between metallicity and orbital parameters}{12}
+\contentsline {section}{\numberline {1.9}Our work}{13}
+\contentsline {chapter}{\numberline {2}Determination of Chemical Abundances}{14}
+\contentsline {section}{\numberline {2.1}Local Termodynamic Equilibrium}{14}
+\contentsline {section}{\numberline {2.2}The behaviour of line strength}{16}
+\contentsline {subsection}{\numberline {2.2.1}The measurement of the EW}{16}
+\contentsline {subsection}{\numberline {2.2.2}The Abundance Dependence}{17}
+\contentsline {subsection}{\numberline {2.2.3}The Temperature Dependence}{17}
+\contentsline {subsection}{\numberline {2.2.4}The pressure dependence}{19}
+\contentsline {subsection}{\numberline {2.2.5}Microturbulence}{20}
+\contentsline {section}{\numberline {2.3}Calculation of the abundance}{20}
+\contentsline {subsection}{\numberline {2.3.1}Differential analysis}{20}
+\contentsline {chapter}{\numberline {3}Determination of the chemical abundances}{22}
+\contentsline {section}{\numberline {3.1}Spectral Data}{22}
+\contentsline {section}{\numberline {3.2}The HARPS Spectrograph}{23}
+\contentsline {section}{\numberline {3.3}Identification and selection of the Spectral Lines}{24}
+\contentsline {subsection}{\numberline {3.3.1}Using VALD to obtain the initial list of spectral lines}{24}
+\contentsline {subsection}{\numberline {3.3.2}Using IRAF to identify the 'good' lines}{24}
+\contentsline {subsection}{\numberline {3.3.3}Measuring the EWs of the solar lines with ARES}{25}
+\contentsline {subsection}{\numberline {3.3.4}Calculating new oscillator strengths}{26}
+\contentsline {subsection}{\numberline {3.3.5}A test using the Solar Abundance values}{27}
+\contentsline {subsection}{\numberline {3.3.6}The molecular equilibrium}{27}
+\contentsline {subsection}{\numberline {3.3.7}Testing a small sub sample containing 20 stars}{27}
+\contentsline {section}{\numberline {3.4}Spectral analysis of the full sample}{30}
+\contentsline {subsection}{\numberline {3.4.1}Uncertainties}{30}
+\contentsline {subsection}{\numberline {3.4.2}Testing the stellar parameters}{30}
+\contentsline {chapter}{\numberline {4}Results}{37}
+\contentsline {section}{\numberline {4.1}Comparison of [X/H] Values with the Literature}{38}
+\contentsline {section}{\numberline {4.2}The [X/H] Distributions}{39}
+\contentsline {section}{\numberline {4.3}The [X/H] versus [Fe/H] plots}{40}
+\contentsline {section}{\numberline {4.4}The [X/Fe] versus [Fe/H] plots}{42}
+\contentsline {subsection}{\numberline {4.4.1}Silicon}{45}
+\contentsline {subsection}{\numberline {4.4.2}Titanium}{45}
+\contentsline {subsection}{\numberline {4.4.3}Scandium}{45}
+\contentsline {subsection}{\numberline {4.4.4}Calcium}{46}
+\contentsline {subsection}{\numberline {4.4.5}Manganese}{46}
+\contentsline {subsection}{\numberline {4.4.6}Chromium}{46}
+\contentsline {subsection}{\numberline {4.4.7}Vanadium}{47}
+\contentsline {subsection}{\numberline {4.4.8}Cobalt}{47}
+\contentsline {subsection}{\numberline {4.4.9}Niquel}{47}
+\contentsline {subsection}{\numberline {4.4.10}Sodium}{48}
+\contentsline {subsection}{\numberline {4.4.11}Magnesium}{48}
+\contentsline {subsection}{\numberline {4.4.12}Aluminium}{48}
+\contentsline {subsection}{\numberline {4.4.13}Metallicity Anomalies in Planet Host Stars}{49}
+\contentsline {chapter}{\numberline {5}Conclusions and Future Work}{50}
+\contentsline {section}{\numberline {5.1}Conclusions}{50}
+\contentsline {section}{\numberline {5.2}Future Work}{51}
