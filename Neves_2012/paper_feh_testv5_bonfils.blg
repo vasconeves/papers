@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: paper_feh_testv5_bonfils.aux
+The style file: aa.bst
+Database file #1: mylib.bib.bib
+I was expecting a `,' or a `}'---line 13 of file mylib.bib.bib
+ : 
+ : @ARTICLE{Alexander-1967,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1424 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004astro.ph.12104C&db_key=PRE},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1855 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1928 of file mylib.bib.bib
+ : 
+ : #   volume = 1239,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4145 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 5648 of file mylib.bib.bib
+ :    
+ :    author = {{Schlegel}, D.~J. and {Finkbeiner}, D.~P. and {Davis}, M.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 5790 of file mylib.bib.bib
+ : 
+ : #    month = --,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5822 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/abs/2007astro.ph..3696S},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Charbonneau-2009"
+Warning--empty institution in Gliese-1991
+You've used 64 entries,
+            2947 wiz_defined-function locations,
+            1062 strings with 16643 characters,
+and the built_in function-call counts, 31750 in all, are:
+= -- 2649
+> -- 2537
+< -- 39
++ -- 849
+- -- 783
+* -- 2609
+:= -- 5900
+add.period$ -- 64
+call.type$ -- 64
+change.case$ -- 517
+chr.to.int$ -- 64
+cite$ -- 65
+duplicate$ -- 1187
+empty$ -- 1705
+format.name$ -- 952
+if$ -- 6279
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 60
+newline$ -- 196
+num.names$ -- 259
+pop$ -- 534
+preamble$ -- 1
+purify$ -- 516
+quote$ -- 0
+skip$ -- 1044
+stack$ -- 0
+substring$ -- 1373
+swap$ -- 28
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 576
+warning$ -- 1
+while$ -- 256
+width$ -- 0
+write$ -- 639
+(There were 8 error messages)

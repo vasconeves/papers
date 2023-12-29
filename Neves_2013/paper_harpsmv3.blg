@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: paper_harpsmv3.aux
+The style file: aa.bst
+Database file #1: mylib.bib.bib
+I was expecting a `,' or a `}'---line 13 of file mylib.bib.bib
+ : 
+ : @ARTICLE{Alexander-1967,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1582 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004astro.ph.12104C&db_key=PRE},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2092 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2165 of file mylib.bib.bib
+ : 
+ : #   volume = 1239,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4694 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 6283 of file mylib.bib.bib
+ :    
+ :    author = {{Schlegel}, D.~J. and {Finkbeiner}, D.~P. and {Davis}, M.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6425 of file mylib.bib.bib
+ : 
+ : #    month = --,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6457 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/abs/2007astro.ph..3696S},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in van_Altena-1995
+Warning--empty publisher in van_Altena-1995
+You've used 54 entries,
+            2947 wiz_defined-function locations,
+            988 strings with 18182 characters,
+and the built_in function-call counts, 34046 in all, are:
+= -- 2687
+> -- 3550
+< -- 15
++ -- 1185
+- -- 1131
+* -- 3061
+:= -- 6375
+add.period$ -- 54
+call.type$ -- 54
+change.case$ -- 588
+chr.to.int$ -- 54
+cite$ -- 56
+duplicate$ -- 998
+empty$ -- 1424
+format.name$ -- 1277
+if$ -- 6652
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 53
+newline$ -- 166
+num.names$ -- 218
+pop$ -- 606
+preamble$ -- 1
+purify$ -- 588
+quote$ -- 0
+skip$ -- 858
+stack$ -- 0
+substring$ -- 1144
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 483
+warning$ -- 2
+while$ -- 214
+width$ -- 0
+write$ -- 538
+(There were 8 error messages)

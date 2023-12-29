@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: paper_harpsmv6_referee.aux
+The style file: aa.bst
+Database file #1: mylib.bib.bib
+I was expecting a `,' or a `}'---line 13 of file mylib.bib.bib
+ : 
+ : @ARTICLE{Alexander-1967,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1642 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004astro.ph.12104C&db_key=PRE},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2152 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2225 of file mylib.bib.bib
+ : 
+ : #   volume = 1239,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4849 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 6468 of file mylib.bib.bib
+ :    
+ :    author = {{Schlegel}, D.~J. and {Finkbeiner}, D.~P. and {Davis}, M.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6610 of file mylib.bib.bib
+ : 
+ : #    month = --,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6655 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/abs/2007astro.ph..3696S},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in van_Altena-1995
+Warning--empty publisher in van_Altena-1995
+You've used 68 entries,
+            2947 wiz_defined-function locations,
+            1077 strings with 21821 characters,
+and the built_in function-call counts, 42829 in all, are:
+= -- 3391
+> -- 4454
+< -- 22
++ -- 1488
+- -- 1419
+* -- 3838
+:= -- 8013
+add.period$ -- 68
+call.type$ -- 68
+change.case$ -- 740
+chr.to.int$ -- 67
+cite$ -- 70
+duplicate$ -- 1254
+empty$ -- 1792
+format.name$ -- 1607
+if$ -- 8379
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 67
+newline$ -- 208
+num.names$ -- 274
+pop$ -- 761
+preamble$ -- 1
+purify$ -- 740
+quote$ -- 0
+skip$ -- 1082
+stack$ -- 0
+substring$ -- 1450
+swap$ -- 13
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 609
+warning$ -- 2
+while$ -- 270
+width$ -- 0
+write$ -- 678
+(There were 8 error messages)

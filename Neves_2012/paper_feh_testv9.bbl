@@ -1,0 +1,181 @@
+\begin{thebibliography}{43}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Baraffe} {et~al.}(1998){Baraffe}, {Chabrier}, {Allard}, \&
+  {Hauschildt}}]{Baraffe-1998}
+{Baraffe}, I., {Chabrier}, G., {Allard}, F., \& {Hauschildt}, P.~H. 1998, A\&A,
+  337, 403
+
+\bibitem[{{Bessell}(1991)}]{Bessell-1991}
+{Bessell}, M.~S. 1991, \aj, 101, 662
+
+\bibitem[{{Bonfils} {et~al.}(2006){Bonfils}, {Delfosse}, {Udry}, {Forveille},
+  \& {Naef}}]{Bonfils-2006}
+{Bonfils}, X., {Delfosse}, X., {Udry}, S., {Forveille}, T., \& {Naef}, D. 2006,
+  in Tenth Anniversary of 51 Peg-b: Status of and prospects for hot Jupiter
+  studies, ed. {L.~Arnold, F.~Bouchy, \& C.~Moutou}, 111--118
+
+\bibitem[{{Bonfils} {et~al.}(2005){Bonfils}, {Delfosse}, {Udry}, {Santos},
+  {Forveille}, \& {S{\'e}gransan}}]{Bonfils-2005}
+{Bonfils}, X., {Delfosse}, X., {Udry}, S., {et~al.} 2005, A\&A, 442, 635
+
+\bibitem[{{Bonfils} {et~al.}(2007){Bonfils}, {Mayor}, {Delfosse}, {Forveille},
+  {Gillon}, {Perrier}, {Udry}, {Bouchy}, {Lovis}, {Pepe}, {Queloz}, {Santos},
+  \& {Bertaux}}]{Bonfils-2007}
+{Bonfils}, X., {Mayor}, M., {Delfosse}, X., {et~al.} 2007, ArXiv e-prints, 704
+
+\bibitem[{{Bouchy} {et~al.}(2009){Bouchy}, {Mayor}, {Lovis}, {Udry}, {Benz},
+  {Bertaux}, {Delfosse}, {Mordasini}, {Pepe}, {Queloz}, \&
+  {Segransan}}]{Bouchy-2009}
+{Bouchy}, F., {Mayor}, M., {Lovis}, C., {et~al.} 2009, A\&A, 496, 527
+
+\bibitem[{{Bouchy} \& {The Sophie Team}(2006)}]{Bouchy-2006}
+{Bouchy}, F. \& {The Sophie Team}. 2006, in Tenth Anniversary of 51 Peg-b:
+  Status of and prospects for hot Jupiter studies, ed. {L.~Arnold, F.~Bouchy,
+  \& C.~Moutou}, 319--325
+
+\bibitem[{Canty \& Ripley(2011)}]{Canty-2011}
+Canty, A. \& Ripley, B.~D. 2011, boot: Bootstrap R (S-Plus) Functions, r
+  package version 1.3-2
+
+\bibitem[{{Casagrande} {et~al.}(2008){Casagrande}, {Flynn}, \&
+  {Bessell}}]{Casagrande-2008}
+{Casagrande}, L., {Flynn}, C., \& {Bessell}, M. 2008, MNRAS, 389, 585
+
+\bibitem[{{Chabrier} \& {Baraffe}(2000)}]{Chabrier-2000}
+{Chabrier}, G. \& {Baraffe}, I. 2000, ARAA, 38, 337
+
+\bibitem[{{Chanam{\'e}} \& {Gould}(2004)}]{Chaname-2004}
+{Chanam{\'e}}, J. \& {Gould}, A. 2004, \apj, 601, 289
+
+\bibitem[{Davison \& Hinkley(1997)}]{Davidson-1997}
+Davison, A.~C. \& Hinkley, D.~V. 1997, Bootstrap Methods and Their Applications
+  (Cambridge: Cambridge University Press), iSBN 0-521-57391-2
+
+\bibitem[{{Delfosse} {et~al.}(2000){Delfosse}, {Forveille}, {S{\'e}gransan},
+  {Beuzit}, {Udry}, {Perrier}, \& {Mayor}}]{Delfosse-2000}
+{Delfosse}, X., {Forveille}, T., {S{\'e}gransan}, D., {et~al.} 2000, A\&A, 364,
+  217
+
+\bibitem[{{Fischer} \& {Valenti}(2005)}]{Fischer-2005}
+{Fischer}, D.~A. \& {Valenti}, J. 2005, ApJ, 622, 1102
+
+\bibitem[{{Gliese} \& {Jahrei{\ss}}(1991)}]{Gliese-1991}
+{Gliese}, W. \& {Jahrei{\ss}}, H. 1991, {Preliminary Version of the Third
+  Catalogue of Nearby Stars}, Tech. rep.
+
+\bibitem[{{Gonzalez}(1997)}]{Gonzalez-1997}
+{Gonzalez}, G. 1997, MNRAS, 285, 403
+
+\bibitem[{{Gould} \& {Chanam{\'e}}(2004)}]{Gould-2004}
+{Gould}, A. \& {Chanam{\'e}}, J. 2004, ApJS, 150, 455
+
+\bibitem[{{Hocking}(1976)}]{Hocking-1976}
+{Hocking}, R.~R. 1976, Biometrics, 32, 1
+
+\bibitem[{{Johnson} \& {Apps}(2009)}]{Johnson-2009}
+{Johnson}, J.~A. \& {Apps}, K. 2009, ApJ, 699, 933
+
+\bibitem[{{Kaufer} \& {Pasquini}(1998)}]{Kaufer-1998}
+{Kaufer}, A. \& {Pasquini}, L. 1998, in Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series, Vol. 3355, Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series, ed.
+  {S.~D'Odorico}, 844--854
+
+\bibitem[{{Kurucz}(1993)}]{Kurucz-1993}
+{Kurucz}, R. 1993, ATLAS9 Stellar Atmosphere Programs and 2 km/s grid.~Kurucz
+  CD-ROM No.~13.~ Cambridge, Mass.: Smithsonian Astrophysical Observatory,
+  1993., 13
+
+\bibitem[{{Leggett}(1992)}]{Leggett-1992}
+{Leggett}, S.~K. 1992, ApJS, 82, 351
+
+\bibitem[{{Mayor} {et~al.}(2009){Mayor}, {Bonfils}, {Forveille}, {Delfosse},
+  {Udry}, {Bertaux}, {Beust}, {Bouchy}, {Lovis}, {Pepe}, {Perrier}, {Queloz},
+  \& {Santos}}]{Mayor-2009}
+{Mayor}, M., {Bonfils}, X., {Forveille}, T., {et~al.} 2009, A\&A, 507, 487
+
+\bibitem[{{Mermilliod} {et~al.}(1997){Mermilliod}, {Mermilliod}, \&
+  {Hauck}}]{Mermilliod-1997}
+{Mermilliod}, J., {Mermilliod}, M., \& {Hauck}, B. 1997, A\&AS, 124, 349
+
+\bibitem[{{Poveda} {et~al.}(1994){Poveda}, {Herrera}, {Allen}, {Cordero}, \&
+  {Lavalley}}]{Poveda-1994}
+{Poveda}, A., {Herrera}, M.~A., {Allen}, C., {Cordero}, G., \& {Lavalley}, C.
+  1994, \rmxaa, 28, 43
+
+\bibitem[{{Queloz} {et~al.}(2000){Queloz}, {Mayor}, {Weber}, {Bl{\' e}cha},
+  {Burnet}, {Confino}, {Naef}, {Pepe}, {Santos}, \& {Udry}}]{Queloz-2000}
+{Queloz}, D., {Mayor}, M., {Weber}, L., {et~al.} 2000, A\&A, 354, 99
+
+\bibitem[{{R Development Core Team}(2008)}]{R-2008}
+{R Development Core Team}. 2008, R: A Language and Environment for Statistical
+  Computing, R Foundation for Statistical Computing, Vienna, Austria, {ISBN}
+  3-900051-07-0
+
+\bibitem[{{Rojas-Ayala} {et~al.}(2010){Rojas-Ayala}, {Covey}, {Muirhead}, \&
+  {Lloyd}}]{Rojas-Ayala-2010}
+{Rojas-Ayala}, B., {Covey}, K.~R., {Muirhead}, P.~S., \& {Lloyd}, J.~P. 2010,
+  ApJ, 720, L113
+
+\bibitem[{{Santos} {et~al.}(2001){Santos}, {Israelian}, \&
+  {Mayor}}]{Santos-2001a}
+{Santos}, N.~C., {Israelian}, G., \& {Mayor}, M. 2001, A\&A, 373, 1019
+
+\bibitem[{{Santos} {et~al.}(2004){Santos}, {Israelian}, \&
+  {Mayor}}]{Santos-2004b}
+{Santos}, N.~C., {Israelian}, G., \& {Mayor}, M. 2004, A\&A, 415, 1153
+
+\bibitem[{{Santos} {et~al.}(2002){Santos}, {Mayor}, {Naef}, {Pepe}, {Queloz},
+  {Udry}, {Burnet}, {Clausen}, {Helt}, {Olsen}, \& {Pritchard}}]{Santos-2002a}
+{Santos}, N.~C., {Mayor}, M., {Naef}, D., {et~al.} 2002, A\&A, 392, 215
+
+\bibitem[{{Schlaufman} \& {Laughlin}(2010)}]{Schlaufman-2010}
+{Schlaufman}, K.~C. \& {Laughlin}, G. 2010, ArXiv e-prints
+
+\bibitem[{{Skrutskie} {et~al.}(2006){Skrutskie}, {Cutri}, {Stiening},
+  {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
+  {Elias}, {Huchra}, {Liebert}, {Lonsdale}, {Monet}, {Price}, {Seitzer},
+  {Jarrett}, {Kirkpatrick}, {Gizis}, {Howard}, {Evans}, {Fowler}, {Fullmer},
+  {Hurt}, {Light}, {Kopan}, {Marsh}, {McCallon}, {Tam}, {Van Dyk}, \&
+  {Wheelock}}]{Skrutskie-2006}
+{Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, AJ, 131,
+  1163
+
+\bibitem[{{Sneden}(1973)}]{Sneden-1973}
+{Sneden}, C. 1973, Ph.D. Thesis, Univ. of Texas
+
+\bibitem[{{Sousa} {et~al.}(2007){Sousa}, {Santos}, {Israelian}, {Mayor}, \&
+  {Monteiro}}]{Sousa-2007}
+{Sousa}, S.~G., {Santos}, N.~C., {Israelian}, G., {Mayor}, M., \& {Monteiro},
+  M.~J.~P.~F.~G. 2007, A\&A, in press
+
+\bibitem[{{Sousa} {et~al.}(2008){Sousa}, {Santos}, {Mayor}, {Udry},
+  {Casagrande}, {Israelian}, {Pepe}, {Queloz}, \& {Monteiro}}]{Sousa-2008}
+{Sousa}, S.~G., {Santos}, N.~C., {Mayor}, M., {et~al.} 2008, A\&A, 487, 373
+
+\bibitem[{{Udry} {et~al.}(2007){Udry}, {Bonfils}, {Delfosse}, {Forveille},
+  {Mayor}, {Perrier}, {Bouchy}, {Lovis}, {Pepe}, {Queloz}, \&
+  {Bertaux}}]{Udry-2007b}
+{Udry}, S., {Bonfils}, X., {Delfosse}, X., {et~al.} 2007, A\&A, 469, L43
+
+\bibitem[{{Udry} \& {Santos}(2007)}]{Udry-2007}
+{Udry}, S. \& {Santos}, N. 2007, ARAA, 45, 397
+
+\bibitem[{{Valenti} \& {Fischer}(2005)}]{Valenti-2005}
+{Valenti}, J.~A. \& {Fischer}, D.~A. 2005, VizieR Online Data Catalog, 215,
+  90141
+
+\bibitem[{{van Leeuwen}(2007)}]{van_Leeuwen-2007}
+{van Leeuwen}, F. 2007, A\&A, 474, 653
+
+\bibitem[{{Weistrop}(1975)}]{Weistrop-1975}
+{Weistrop}, D. 1975, PASP, 87, 367
+
+\bibitem[{{Woolf} \& {Wallerstein}(2005)}]{Woolf-2005}
+{Woolf}, V.~M. \& {Wallerstein}, G. 2005, MNRAS, 356, 963
+
+\bibitem[{{Woolf} \& {Wallerstein}(2006)}]{Woolf-2006}
+{Woolf}, V.~M. \& {Wallerstein}, G. 2006, PASP, 118, 218
+
+\end{thebibliography}

@@ -1,0 +1,87 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: paper_feh_testv7.2.aux
+The style file: aa.bst
+Database file #1: mylib.bib.bib
+I was expecting a `,' or a `}'---line 13 of file mylib.bib.bib
+ : 
+ : @ARTICLE{Alexander-1967,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1437 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004astro.ph.12104C&db_key=PRE},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1881 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 1954 of file mylib.bib.bib
+ : 
+ : #   volume = 1239,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4171 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 5674 of file mylib.bib.bib
+ :    
+ :    author = {{Schlegel}, D.~J. and {Finkbeiner}, D.~P. and {Davis}, M.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 5816 of file mylib.bib.bib
+ : 
+ : #    month = --,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5848 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/abs/2007astro.ph..3696S},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty institution in Gliese-1991
+You've used 63 entries,
+            2947 wiz_defined-function locations,
+            1051 strings with 16455 characters,
+and the built_in function-call counts, 31363 in all, are:
+= -- 2613
+> -- 2524
+< -- 38
++ -- 845
+- -- 780
+* -- 2576
+:= -- 5834
+add.period$ -- 63
+call.type$ -- 63
+change.case$ -- 512
+chr.to.int$ -- 63
+cite$ -- 64
+duplicate$ -- 1167
+empty$ -- 1677
+format.name$ -- 946
+if$ -- 6200
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 59
+newline$ -- 193
+num.names$ -- 255
+pop$ -- 528
+preamble$ -- 1
+purify$ -- 511
+quote$ -- 0
+skip$ -- 1027
+stack$ -- 0
+substring$ -- 1346
+swap$ -- 26
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 567
+warning$ -- 1
+while$ -- 252
+width$ -- 0
+write$ -- 629
+(There were 8 error messages)

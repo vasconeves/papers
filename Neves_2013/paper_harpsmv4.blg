@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: paper_harpsmv4.aux
+The style file: aa.bst
+Database file #1: mylib.bib.bib
+I was expecting a `,' or a `}'---line 13 of file mylib.bib.bib
+ : 
+ : @ARTICLE{Alexander-1967,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1582 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004astro.ph.12104C&db_key=PRE},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2092 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2165 of file mylib.bib.bib
+ : 
+ : #   volume = 1239,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4727 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 6331 of file mylib.bib.bib
+ :    
+ :    author = {{Schlegel}, D.~J. and {Finkbeiner}, D.~P. and {Davis}, M.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6473 of file mylib.bib.bib
+ : 
+ : #    month = --,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6505 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/abs/2007astro.ph..3696S},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in van_Altena-1995
+Warning--empty publisher in van_Altena-1995
+You've used 59 entries,
+            2947 wiz_defined-function locations,
+            1020 strings with 18983 characters,
+and the built_in function-call counts, 36416 in all, are:
+= -- 2893
+> -- 3721
+< -- 19
++ -- 1242
+- -- 1182
+* -- 3254
+:= -- 6805
+add.period$ -- 59
+call.type$ -- 59
+change.case$ -- 625
+chr.to.int$ -- 58
+cite$ -- 61
+duplicate$ -- 1092
+empty$ -- 1556
+format.name$ -- 1350
+if$ -- 7126
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 58
+newline$ -- 181
+num.names$ -- 238
+pop$ -- 647
+preamble$ -- 1
+purify$ -- 625
+quote$ -- 0
+skip$ -- 940
+stack$ -- 0
+substring$ -- 1255
+swap$ -- 13
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 528
+warning$ -- 2
+while$ -- 234
+width$ -- 0
+write$ -- 588
+(There were 8 error messages)

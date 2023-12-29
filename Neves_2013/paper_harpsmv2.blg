@@ -1,0 +1,89 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: paper_harpsmv2.aux
+The style file: aa.bst
+Database file #1: mylib.bib.bib
+I was expecting a `,' or a `}'---line 13 of file mylib.bib.bib
+ : 
+ : @ARTICLE{Alexander-1967,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1582 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2004astro.ph.12104C&db_key=PRE},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2075 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 2148 of file mylib.bib.bib
+ : 
+ : #   volume = 1239,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 4677 of file mylib.bib.bib
+ :  
+ :  #   month = apr,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting an "="---line 6248 of file mylib.bib.bib
+ :    
+ :    author = {{Schlegel}, D.~J. and {Finkbeiner}, D.~P. and {Davis}, M.},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 6390 of file mylib.bib.bib
+ : 
+ : #    month = --,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6422 of file mylib.bib.bib
+ :    
+ :    adsurl = {http://adsabs.harvard.edu/abs/2007astro.ph..3696S},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "van-Leeuwen-2007"
+Warning--can't use both author and editor fields in van_Altena-1995
+Warning--empty publisher in van_Altena-1995
+You've used 62 entries,
+            2947 wiz_defined-function locations,
+            1036 strings with 22998 characters,
+and the built_in function-call counts, 45680 in all, are:
+= -- 3509
+> -- 5336
+< -- 15
++ -- 1781
+- -- 1719
+* -- 4222
+:= -- 8581
+add.period$ -- 62
+call.type$ -- 62
+change.case$ -- 816
+chr.to.int$ -- 62
+cite$ -- 64
+duplicate$ -- 1145
+empty$ -- 1634
+format.name$ -- 1884
+if$ -- 8900
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 61
+newline$ -- 190
+num.names$ -- 250
+pop$ -- 836
+preamble$ -- 1
+purify$ -- 816
+quote$ -- 0
+skip$ -- 981
+stack$ -- 0
+substring$ -- 1318
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 555
+warning$ -- 2
+while$ -- 246
+width$ -- 0
+write$ -- 618
+(There were 8 error messages)

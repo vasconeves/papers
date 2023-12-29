@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper_harpsm_calv11_referee.aux
+The style file: aa.bst
+Database file #1: mylib.bib
+Warning--empty publisher in Press-1992
+You've used 53 entries,
+            2947 wiz_defined-function locations,
+            994 strings with 17025 characters,
+and the built_in function-call counts, 30874 in all, are:
+= -- 2479
+> -- 2913
+< -- 16
++ -- 972
+- -- 917
+* -- 2716
+:= -- 5703
+add.period$ -- 53
+call.type$ -- 53
+change.case$ -- 515
+chr.to.int$ -- 51
+cite$ -- 54
+duplicate$ -- 1022
+empty$ -- 1469
+format.name$ -- 1059
+if$ -- 6093
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 48
+newline$ -- 163
+num.names$ -- 215
+pop$ -- 536
+preamble$ -- 1
+purify$ -- 515
+quote$ -- 0
+skip$ -- 894
+stack$ -- 0
+substring$ -- 1149
+swap$ -- 44
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 471
+warning$ -- 1
+while$ -- 215
+width$ -- 0
+write$ -- 531
+(There was 1 warning)

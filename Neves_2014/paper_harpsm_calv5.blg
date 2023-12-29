@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: paper_harpsm_calv5.aux
+The style file: aa.bst
+Database file #1: mylib.bib
+Warning--empty publisher in Press-1992
+You've used 45 entries,
+            2947 wiz_defined-function locations,
+            943 strings with 14751 characters,
+and the built_in function-call counts, 26170 in all, are:
+= -- 2094
+> -- 2472
+< -- 13
++ -- 825
+- -- 778
+* -- 2308
+:= -- 4837
+add.period$ -- 45
+call.type$ -- 45
+change.case$ -- 437
+chr.to.int$ -- 43
+cite$ -- 46
+duplicate$ -- 864
+empty$ -- 1246
+format.name$ -- 894
+if$ -- 5162
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 41
+newline$ -- 139
+num.names$ -- 182
+pop$ -- 455
+preamble$ -- 1
+purify$ -- 437
+quote$ -- 0
+skip$ -- 757
+stack$ -- 0
+substring$ -- 975
+swap$ -- 36
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 399
+warning$ -- 1
+while$ -- 181
+width$ -- 0
+write$ -- 451
+(There was 1 warning)

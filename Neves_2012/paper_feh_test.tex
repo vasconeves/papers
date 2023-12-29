@@ -1,0 +1,409 @@
+\documentclass[oldversion]{aa}
+%\documentclass[referee]{aa}
+\usepackage{epsfig}
+\usepackage{natbib}
+\usepackage{lscape}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{subfigure}
+%\usepackage{multicol}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{colortbl}
+\usepackage{fancyheadings}
+\bibpunct{(}{)}{;}{a}{}{,}
+
+\newcommand\T{\rule{0pt}{2.6ex}}
+\newcommand\B{\rule[-1.2ex]{0pt}{0pt}}
+
+\begin{document}
+
+\title{A comparative test of metallicity calibrations for M dwarfs} %\thanks{agradecimentos?}}
+%\subtitle{}
+
+
+
+\author{ V. Neves\inst{1,2} \and X. Bonfils\inst{2} \and N. C. Santos\inst{1,3} \and F. Allard\inst{4} \and X. Delfosse\inst{2} \and T. Forveille\inst{2} \and C. Fernandes\inst{5} \and C. Nat\'ario\inst{5}} 
+
+\institute{
+Centro de Astrof{\'\i}sica, Universidade do Porto, Rua das Estrelas, 4150-762 Porto, Portugal \\
+email: {\tt vasco.neves@astro.ua.pt}
+\and
+UJF-Grenoble 1 / CNRS-INSU, Institut de Plan\' etologie et dÕAstrophysique de Grenoble (IPAG) UMR 5274, Grenoble, F-38041, France.
+\and
+Departamento de F{\'i}sica e Astronomia, Faculdade de Ci{\^e}ncias, Universidade do Porto, Portugal
+\and
+Centre de Recherche Astrophysique de Lyon, UMR 5574: CNRS, Universit\'e de Lyon, \'Ecole Normale Sup\'erieure de Lyon , 46 All\'ee d'Italie , F-69364 Lyon Cedex 07, France
+\and
+Centro de Astronomia e Astrof\'isica da Universidade de Lisboa, Campo Grande, Ed. C8 1749-016 Lisboa, Portugal
+}
+
+
+%    Physikalisches Institut, University of Bern, Sidlerstrasse 5, 3012 Bern, Switzerland
+%    \and
+
+
+\date{Received XXX; accepted XXX}
+
+\abstract{ In this research note we present a comparative test of five metallicity calibrations of M dwarfs, from the works of Bonfils et al. (2005), Casagrande et al. (2008), Johnson \& Apps (2009), and Schlaufman \& Laughlin (2010), using  a sample of 23 M dwarf companions with a wide ($>$ 0.5 arcsec) FGK primary. The aim here is to clarify which metallicity calibration should be used when a [Fe/H] estimation of M dwarfs is needed. We conclude that, at present, the best metallicity calibration is from Schlaufman \& Laughlin (2010): it is the best suited for prediction as well as for explaining the variance of the data. We also find out that the use of precise V photometry does not change the final dispersion of the calibrations of Bonfils et al. (2005), Johnson \& Apps (2009), and Schlaufman \& Laughlin (2010). Unfortunately we could not test the calibration of Rojas-Ayala et al. (2010) due to a lack of infrared spectra. In the near future, we intend to test the Rojas-Ayala et al. calibration, to study  the planet-metallicity correlation, and to create a precise ($\sim$ 0.05 dex) metallicity calibration.
+
+\keywords{stars: abundances -- 
+stars: fundamental parameters -- 
+stars: planetary systems -- 
+stars: late type
+stars: atmospheres
+}
+	    }
+
+\authorrunning{Neves et al.}
+\titlerunning{A comparative test of metallicity calibrations for M dwarfs}
+\maketitle
+
+\section{Introduction}
+
+%M dwarfs are the smallest and coldest stars of the main sequence. However, they are the most numerous and comprise most of its baryonic matter in the Galaxy. (\textcolor{red}{verificar referencia de Chabrier}). 
+
+In recent times there has been an increased interest in studying M dwarfs, motivated by the fact that it is easier to detect lower mass planets around them. In fact, the M stars lower mass and radius imply that the reflex velocities induced by planets around them, as well as the transit depths, are considerably larger, when compared to the same effects induced in the more massive, and better studied, FGK stars. Moreover, the habitable zone in these stars are situated in tighter orbits, which makes the detection of planets in this area easier with radial velocity and transit techniques, as both have their best sensitivity closer to the host star \citep{Nutzman-2008}.
+
+%M stars are also increasingly important in the context of planet formation around very low mass stars. Some theoretical models predict that the formation of giant planets is seriously inhibited around the less massive stars (M$_{*} <$ 0.4M$_{\odot}$) (e.g. \citeauthor{Laughlin-2004} \citeyear{Laughlin-2004}; \citeauthor{Ida-2005} \citeyear{Ida-2005}). According to them, the formed rocky or ice cores do not have enough time to get a gas envelope and become super-earths or ice giants instead. Others suggest that the proto-planets may have enough time to grow and to accrete the gas envelope before the disk vanishes, by invoking migration and faster accretion (e.g. \citeauthor{Alibert-2005} \citeyear{Alibert-2005}). Alternatively, \citet{Boss-2006a}, and \citet{Boss-2006b} show that the disk instability hypothesis can also play a role in the formation of planets around M dwarfs. Indeed, an increasingly number of planets are being detected around these stars and they show that most planets have, on average, a lower mass than those found on FGK stars, the majority being Neptunians and super-Earths (e.g. \citeauthor{Bonfils-2007} \citeyear{Bonfils-2007}; \citeauthor{Udry-2007b} \citeyear{Udry-2007b} \textcolor{red}{mais 1 ou 2 referencias aqui}). 
+
+%On the observational side, M dwarfs are under considerable attention as planet hosts: 
+
+The growing number of exoplanets, as well as a copious amount of high signal-to-noise, high-resolution spectra from their host stars, available from radial velocity surveys, allow the statistical analysis of their properties as well as the properties of their host stars (for a review see \citeauthor{Udry-2007} \citeyear{Udry-2007}). One of the most remarkable correlations found so far for FGK stars that is improving the understanding of the processes of planetary formation is related to the host star: the stars with higher metallicity content have, on average, a higher probability of hosting Jovian class planets (\citeauthor{Gonzalez-1997} \citeyear{Gonzalez-1997}; \citeauthor{Santos-2001a} \citeyear{Santos-2001a}; \citeauthor{Fischer-2005} \citeyear{Fischer-2005}). Whether or not this correlation extends to the cooler M dwarfs is still highly controversial and requires very precise measurements. Interestingly, this correlation is likely not observed for FGK stars orbited by Neptune or Super-Earth type planets (\citeauthor{Sousa-2008} \citeyear{Sousa-2008}; \citeauthor{Bouchy-2009} \citeyear{Bouchy-2009}).
+
+For M dwarfs, however, the measurement of the stellar parameters from their spectra is not a trivial task. As the stellar subtype goes up, the number of diatomic and triatomic molecules (e.g. TiO, VO, H$_{2}$O, CO, etc) in the M dwarf atmospheres increase, effectively depressing the continuum and making a line by line spectroscopic analysis impossible for all but the earlier subtypes. The lack of good atmospheric models also affects the calculation of the stellar parameters, limiting the accuracy of their determination. In this context, several attempts at measuring the M dwarf metallicities using different techniques have been recently made as described in detail in the following section.
+
+
+\section{The latest metallicity measurements and calibrations}
+\label{latest}
+In the last few years several attempts have been made at measuring M dwarf metallicities. \citet{Woolf-2005} used measurements of equivalent widths of atomic lines from high resolution spectra of 35 M and K dwarfs, to make a classical spectroscopic analysis as done for FGK dwarfs, but with updated atmospheric models. Unfortunately, this approach is only feasible for the M dwarfs with the earliest ($T_{eff} > 3500$ K), metal-poor subtypes. This study was then extended in \citet{Woolf-2006}, with additional data for 32 stars. The measurements were then used to create a metallicity calibration with molecular indices, namely CaH2 and TiO5, than can be taken from medium resolution spectra ($\lambda/\Delta \lambda \sim 3000$), allowing the quantification of the metallicity on fainter and/or further stars. This calibration has an uncertainty of $\pm$0.30 dex.
+
+An alternative approach is based on the measurement of metallicities from FGK high-resolution spectra in binary or multiple systems where one of the lesser bright stars is an M dwarf. The metallicity of the latter is inferred from the former. Then, a photometric metallicity calibration is established, based on these values. \citet{Bonfils-2005}, \citet{Johnson-2009}, and \citet{Schlaufman-2010} used such a technique to create metallicity calibrations for M dwarfs. All calibrations depend on precise parallaxes from the Hipparcos sattelite \citep{Perryman-1997}, and this does mean that these studies are limited to stars in the solar neighbourhood. 
+
+\citet{Bonfils-2005} found out that the mean metallicity of M dwarfs with planets is -0.11 dex, which contrast sharply with the value found for FGK stars (+0.15 dex). Moreover, they found that the metallicity of M dwarfs, using the calibration, in their complete, volume limited sample of FGKM dwarfs have a $\sim 0.07$ dex shift toward lower metallicities. This may imply that the decreased frequency of Jovians around M dwarfs is a reflection of their lower metallicities rather than their lower masses. 
+
+The high-resolution spectral synthesis is starting to produce its first results for M dwarfs (e.g. \citeauthor{Valenti-1998} \citeyear{Valenti-1998}, \citeauthor{Bean-2006} \citeyear{Bean-2006}). However, the technique does not yet reproduce all the fine details of a high-resolution spectra, due to a lack of the proper opacities and molecular transitions for the used model atmospheres. \citet{Bean-2006} used this technique to determine precise stellar parameters of M dwarfs. He found out that the uncertainties regarding the determination of metallicity were around 0.12 dex. However, this value does not take into account systematic errors or errors that may come from the models. Therefore, the results of this work should be taken with care.
+
+A completely different technique was devised by \citet{Casagrande-2008} based on his previous study of FGK stars using the infrared flux method or IRFM \citep{Casagrande-2006}. In order to adapt this method to M dwarfs, optical bands were added, creating the so-called MOITE, Multiple Optical and Infrared TEchnique.  The calculated metallicities have a very good agreement with \citet{Bonfils-2005} results. The internal uncertainties are reported as $\sim$ 0.2 dex and the total uncertainty is estimated to be between 0.2 and 0.3 dex.
+
+%FAZER UMA PEQUENA REFERENCIA AO BEAN (2006). DONE
+
+
+In a more recent study, \citet{Johnson-2009} tested the \citet{Bonfils-2005} calibration. They created an empirical model using a color-magnitude diagram, in which the vertical distance of the M dwarf to the mean metallicity of the main sequence M stars (equal to the mean metallicity of a volume limited sample of FGK stars from the SPOCS sample \citep{Valenti-2005}) is a measure of the star metallicity. Their results show that the metal rich stars of \citet{Bonfils-2005} are systematically underestimated, by an average of 0.32 dex, attributing this to a lack of metal rich stars in their sample or due to the use of poor V magnitudes. They conclude that M dwarf planet hosts follow the same trend as FGK stars, that is, they are preferentially metal rich. They also suggest that the lack of Jovian planets around M dwarfs is mostly correlated to a lower stellar mass and not to a lower value of [Fe/H], being more consistent with the works of planetary formation around M stars (i.e. \citeauthor{Laughlin-2004} \citeyear{Laughlin-2004}; \citeauthor{Ida-2005} \citeyear{Ida-2005}).
+
+\textbf{Following the work of \citet{Johnson-2009}, \citet{Schlaufman-2010} created a very similar calibration but using a volume-limited and kinematically matched sample to test the if the value found out for the mean M dwarf main sequence metallicity using FGK primaries (with M dwarf secondaries) were compatible with each other. They conclude that both samples are statistically indistinguishable.
+}%vef melhor esta questao dos catalogos, falar com o Xavier sobre isto.
+%, the Geneva-Copenhagen survey \citep{Nordstrom-2004}. They claim that this catalogue is more unbiased and outlier-sensitive when compared to other catalogues, having a mean MS metallicity value for the M dwarfs of -0.14 dex as opposed to -0.05 dex of \citet{Johnson-2009}. 
+Using models from \citet{Baraffe-1998}, they show that the metallicity correlates best with horizontal shifts in the $V-K_{s}$,$M_{K_{s}}$ plane. For this reason, they compute the distance from the M dwarf main sequence to the M dwarf star only in the horizontal direction. Their results show that the previous calibrations underestimate \citep{Bonfils-2005} or overestimate \citep{Johnson-2009} metallicity at the extremes of their range. They conclude that their results suggest that metal rich M dwarfs are more likely to host planets, as in FGK stars, and they claim that there is a hint that this correlation might extend to low-mass planets as well. This last result is in opposition to results obtained for low-mass planets orbiting FGK stars, which state that there is no significative relation between metallicity and the existence of low-mass planets (e.g. \citeauthor{Udry-2007b} \citeyear{Udry-2007b}; \citeauthor{Sousa-2008} \citeyear{Sousa-2008})
+
+
+Finally, \citet{Rojas-Ayala-2010} recently released a new paper describing a novel and very precise technique that allows an easier observation of late type M dwarfs as well as farther/fainter, stars. Their technique is based on the calculation of spectral indices via direct spectral analysis of moderate ($R \sim 2700$) near infrared spectra (K band), and has the advantage of not depending on V magnitudes nor parallaxes, allowing the study of fainter (or/and farther) stars. They report uncertainties of $\pm 0.15$ dex. Their results agree in general with \citet{Johnson-2009} and \citet{Schlaufman-2010} that M dwarf planet hosts appear to be systematically metal rich, a result consistent with the [Fe/H] distribution of FGK stars with planets. Neptunian host stars also seem to follow the trend of FGK stars, having a lower metallicity than Jovian hosts.
+
+ In this paper, we test the metallicity calibrations of \citet{Bonfils-2005}, \citet{Casagrande-2008}, \citet{Johnson-2009}, and \citet{Schlaufman-2010} using  a sample of 23 M dwarf companions with a wide ($>$ 0.5 arcsec) FGK primary. A description of our sample is done in chapter \ref{sample}. Then, on chapter \ref{test}, we test and compare the different calibrations with our measurements. Finally, on chapter \ref{discussion}, we discuss our results.
+
+
+%A classical spectroscopic analysis gets more difficult with the increase of the spectral subtype, as the number of several diatomic and triatomic molecules. 
+
+%During the last few years there have been several attempts at creating a metallicity calibration for M dwarfs. Establishing such calibration is important 
+
+\section{The sample}
+\label{sample}
+
+\begin{sidewaystable*}[]\tiny
+%  \centering
+\caption[]{Sample of wide binaries with an FGK primary and a M dwarf secondary. The first and second column display, respectively, the primary and the secondary stars. The third column depicts the parallaxes of the primary with its associated errors. The forth column describes the metallicity values and its respective errors. From the fifth to the tenth column, the VRIJHK$_{S}$ photometry is shown, as well as its associated errors. In the last two columns the sources for [Fe/H] and for the photometry are exhibited.}
+  \label{estrelas}
+  \begin{tabular}{ l l c c c c c c c c c c}
+
+
+  \hline
+  \hline
+Primary&Secondary&$\pi$&[Fe/H]&V&R&I&J&H&K$_{s}$& [Fe/H] source&VRIJHK source \\
+            &                 & [mas] & [dex] & [mag] & [mag] & [mag]Ê& [mag] &Ê[mag] & [mag] & & \\
+\hline
+Gl53.1A  &  Gl53.1B  &  48.20 $\pm$ 1.06  &  0.07 $\pm$ 0.12  &  13.60 $\pm$ 0.02  &  12.48 $\pm$ 0.05  &  11.01 $\pm$ 0.05  &  9.533 $\pm$ 0.039  &  8.927 $\pm$ 0.023  &  8.673 $\pm$ 0.024  &  B05  &  W93,2MASS \\
+Gl56.3A  &  Gl56.3B  &  37.75 $\pm$ 0.95  &  0.00 $\pm$ 0.10  &  10.70 $\pm$ 0.02  &  9.84 $\pm$ 0.03  &  9.01 $\pm$ 0.03  &  8.012 $\pm$ 0.021  &  7.369 $\pm$ 0.029  &  7.190 $\pm$ 0.020  &  COR  &  B90,2MASS \\
+Gl81.1A  &  Gl81.1B  &  30.44 $\pm$ 0.60  &  0.08 $\pm$ 0.02  &  11.20 $\pm$ 0.01  &  10.30 $\pm$ 0.01  &  9.41 $\pm$ 0.01  &  8.413 $\pm$ 0.023  &  7.763 $\pm$ 0.021  &  7.597 $\pm$ 0.027  &  S08  &  C84,2MASS \\
+Gl100  &  Gl100C  &  51.16 $\pm$ 1.33  &  -0.27 $\pm$ 0.04  &  12.85 $\pm$ 0.01  &  11.79 $\pm$ 0.01  &  10.43 $\pm$ 0.01  &  9.181 $\pm$ 0.027  &  8.571 $\pm$ 0.029  &  8.347 $\pm$ 0.021  &  NEW  &  C84,2MASS \\
+Gl105A  &  Gl105B  &  139.27 $\pm$ 0.45  &  -0.17 $\pm$ 0.03  &  11.66 $\pm$ 0.02  &  10.45 $\pm$ 0.05  &  8.87 $\pm$ 0.05  &  7.333 $\pm$ 0.018  &  6.793 $\pm$ 0.038  &  6.574 $\pm$ 0.020  &  NEW  &  W93,2MASS \\
+Gl140.1A  &  Gl140.1B  &  51.95 $\pm$ 1.16  &  -0.41 $\pm$ 0.04  &  10.17 $\pm$ 0.01  &  -  &  -  &  7.436 $\pm$ 0.023  &  6.828 $\pm$ 0.023  &  6.620 $\pm$ 0.040  &  S08  &  S96,2MASS \\
+Gl157A  &  Gl157B  &  64.40 $\pm$ 1.06  &  -0.13 $\pm$ 0.03  &  11.61 $\pm$ 0.03  &  -  &  -  &  7.773 $\pm$ 0.024  &  7.162 $\pm$ 0.033  &  6.927 $\pm$ 0.031  &  NEW  &  U74,2MASS \\
+Gl173.1A  &  Gl173.1B  &  32.69 $\pm$ 1.51  &  -0.33 $\pm$ 0.03  &  14.19 $\pm$ 0.02  &  13.05 $\pm$ 0.05  &  11.65 $\pm$ 0.05  &  10.263 $\pm$ 0.022  &  9.715 $\pm$ 0.028  &  9.421 $\pm$ 0.024  &  NEW &  W93,2MASS \\
+Gl186.1A  &  Gl186.1B  &  44.48 $\pm$ 0.36  &  -0.75 $\pm$ 0.10  &  10.53 $\pm$ 0.01  &  9.67 $\pm$ 0.01  &  8.88 $\pm$ 0.01  &  7.860 $\pm$ 0.027  &  7.315 $\pm$ 0.047  &  7.058 $\pm$ 0.020  &  COR  &  C84,2MASS \\
+Gl211  &  Gl212  &  81.44 $\pm$ 0.54  &  0.04 $\pm$ 0.11  &  09.76 $\pm$ 0.01  &  8.81 $\pm$ 0.05  &  7.76 $\pm$ 0.05  &  6.586 $\pm$ 0.021  &  5.963 $\pm$ 0.016  &  5.759 $\pm$ 0.016  &  B05  &  HIP,W93,2MASS \\
+Gl231.1A  &  Gl231.1B  &  51.95 $\pm$ 0.40  &  0.01 $\pm$ 0.01  &  13.27 $\pm$ 0.02  &  12.15 $\pm$ 0.05  &  10.62 $\pm$ 0.05  &  9.088 $\pm$ 0.023  &  8.559 $\pm$ 0.042  &  8.267 $\pm$ 0.018  &  NEW  &  W81,2MASS \\
+Gl250A  &  Gl250B  &  114.94 $\pm$ 0.86  &  -0.15 $\pm$ 0.09  &  10.08 $\pm$ 0.01  &  9.04 $\pm$ 0.01  &  7.80 $\pm$ 0.01  &  6.579 $\pm$ 0.034  &  5.976  $\pm$ 0.055  &  5.723  $\pm$ 0.036  &  B05  &  L89,2MASS \\
+Gl282A  &  Gl282B  &  70.37 $\pm$ 0.64  &  -0.04 $\pm$ 0.03  &  08.94 $\pm$ 0.03  &  8.17 $\pm$ 0.05  &  7.44 $\pm$ 0.05  &  6.377 $\pm$ 0.024  &  5.700 $\pm$ 0.026  &  5.568 $\pm$ 0.017  &  NEW  &  W77,2MASS \\
+Gl297.2A  &  Gl297.2B  &  44.68 $\pm$ 0.30  &  0.03 $\pm$ 0.03  &  11.80 $\pm$ 0.02  &  -  &  -  &  8.276 $\pm$ 0.019  &  7.672 $\pm$ 0.027  &  7.418 $\pm$ 0.016  &  NEW  &  R04,2MASS \\
+Gl324A  &  Gl324B  &  81.03 $\pm$ 0.75  &  0.32 $\pm$ 0.07  &  13.16 $\pm$ 0.01  &  11.94 $\pm$ 0.05  &  10.27 $\pm$ 0.05  &  8.560 $\pm$ 0.027  &  7.933 $\pm$ 0.040  &  7.666 $\pm$ 0.023  &  B05  &  D88,W77,2MASS \\
+Gl384A  &  Gl384B  &  25.14 $\pm$ 1.13  &  -0.01 $\pm$ 0.01  &  10.78 $\pm$ 0.01  &  -  &  -  &  8.136 $\pm$ 0.069  &  7.542 $\pm$ 0.094  &  7.390 $\pm$ 0.042  &  NEW  &  O94,2MASS \\
+Gl559A  &  Gl551  &  772.33 $\pm$ 2.42  &  0.19 $\pm$ 0.10  &  11.05 $\pm$ 0.02  &  9.43 $\pm$ 0.03  &  7.43 $\pm$ 0.03  &  5.357 $\pm$ 0.023  &  4.835 $\pm$ 0.057  &  4.31 $\pm$ 0.03  &  COR  &  B90,2MASS,B91 \\
+GJ653  &  GJ654  &  93.40 $\pm$ 0.94  &  -0.62 $\pm$ 0.04  &  10.07 $\pm$ 0.01  &  9.10 $\pm$ 0.01  &  7.95 $\pm$ 0.01  &  6.780 $\pm$ 0.029  &  6.193 $\pm$ 0.021  &  5.975 $\pm$ 0.026  &  S08  &  K02,2MASS \\
+Gl797A  &  Gl797B  &  47.65 $\pm$ 0.76  &  -0.07 $\pm$ 0.04  &  11.87 $\pm$ 0.01  &  -  &  -  &  8.160 $\pm$ 0.020  &  7.645  $\pm$ 0.023  &  7.416  $\pm$ 0.016  &  B05  &  D82,2MASS \\
+GJ3091A  &  GJ3092B  &  33.83 $\pm$ 1.00  &  0.02 $\pm$ 0.04  &  15.64 $\pm$ 0.03  &  13.81 $\pm$ 0.05  &  11.97 $\pm$ 0.05  &  11.092 $\pm$ 0.023  &  10.540 $\pm$ 0.026  &  10.266 $\pm$ 0.021  &  S08  &  P82,E76,2MASS \\
+GJ3194A  &  GJ3195B  &  41.27 $\pm$ 0.58  &  0.00 $\pm$ 0.10  &  12.55 $\pm$ 0.02  &  11.49 $\pm$ 0.05  &  10.15 $\pm$ 0.05  &  8.877 $\pm$ 0.021  &  8.328 $\pm$ 0.023  &  8.103 $\pm$ 0.029  &  SOP  &  W96,2MASS \\
+GJ3627A  &  GJ3628B  &  38.58 $\pm$ 2.17  &  -0.04 $\pm$ 0.10  &  14.10 $\pm$ 0.03  &  12.88 $\pm$ 0.05  &  11.31 $\pm$ 0.05  &  9.828 $\pm$ 0.022  &  9.247 $\pm$ 0.021  &  9.015 $\pm$ 0.018  &  SOP  &  W88,2MASS \\
+NLTT34353  &  NLTT34357  &  20.73 $\pm$ 1.05  &  -0.18 $\pm$ 0.01  &  12.41 $\pm$ 0.02  &  11.51 $\pm$ 0.03  &  10.59 $\pm$ 0.03  &  9.595 $\pm$ 0.026  &  8.910 $\pm$ 0.026  &  8.734 $\pm$ 0.019  &  NEW  &  R89,2MASS \\
+\hline
+
+\end{tabular}
+References. [B05] \citet{Bonfils-2005}; [COR] Coralie Spectrograph at the 1.20m Euler Swiss telescope at La Silla ESO Observatory; [S08] \citet{Sousa-2008}; [NEW] This paper; [SOP] \citet{Bouchy-2006}; [W93] \citet{Weis-1993}; [B90] \citet{Bessell-1990}; [B91] \citet{Bessell-1991} [C84] \citet{Caldwell-1984}; [S96] \citet{Sinachopoulos-1996}; [U74] \citet{Upgren-1974}; [HIP] \citet{ESA-1997}; [W81] \citet{Weistrop-1981}; [L89] \citet{Laing-1989}; [W77] \citet{Weistrop-1977}; [R04] \citet{Reid-2004}; [D88] \citet{Dahn-1988}; [O94] \citet{Olsen-1994a}; [K02] \citet{Koen-2002}; [D82] \citet{Dahn-1982}; [P82] \citet{Pesch-1982}; [E76] \citet{Eggen-1976}; [W96] \citet{Weis-1996}; [W88] \citet{Weis-1988}; [R89] \citet{Ryan-1989}; [2MASS] \citet{Skrutskie-2006}.
+
+\end{sidewaystable*}
+
+\begin{table*}[]\small
+\centering
+\caption[]{Stellar parameters measured on the primaries. The [Fe/H] of the M dwarf secondary is inferred from the primary.}
+\label{parameters}
+\begin{tabular} {l l r r r r }
+\hline
+\hline
+Primary & Secondary & $T_{eff}$ & log g & vt & [Fe/H] \\
+             &                   & [K] & [dex] & [dex] & [dex] \\
+\hline
+Gl100A  &  Gl100C & 4910  $\pm$  77  &  4.84  $\pm$  0.20  &  1.53  $\pm$  0.21  &  -0.27 $\pm$ 0.04 \\
+Gl105A  &  Gl105B & 4911  $\pm$  56  &  4.54  $\pm$  0.13  &  0.72  $\pm$  0.18  &  -0.17 $\pm$ 0.03 \\
+Gl157A  &  Gl157B & 4838  $\pm$  79  &  4.74  $\pm$  0.20  &  1.19  $\pm$  0.23  &  -0.13 $\pm$ 0.03 \\
+Gl173.1A  &  Gl173.1B & 4893  $\pm$  65  &  4.72  $\pm$  0.15  &  0.96  $\pm$  0.19  &  -0.33 $\pm$ 0.03 \\
+Gl231.1A  &  Gl231.1B & 5950  $\pm$  17  &  4.4  $\pm$  0.02  &  1.16  $\pm$  0.02  &  0.01 $\pm$ 0.01 \\
+Gl282A  &  Gl282B & 4940  $\pm$  53  &  4.55  $\pm$  0.11  &  0.88  $\pm$  0.15  &  -0.04 $\pm$ 0.03 \\
+Gl297.2A  &  Gl297.2B & 6460  $\pm$  37  &  4.63  $\pm$  0.05  &  1.7  $\pm$  0.05  &  0.03 $\pm$ 0.03 \\
+Gl384A  &  Gl384B & 5511  $\pm$  20  &  4.51  $\pm$  0.05  &  1.03  $\pm$  0.03  &  -0.01 $\pm$ 0.01 \\
+NLTT34353  &  NLTT34357 & 5477  $\pm$  20  &  4.46  $\pm$  0.03  &  0.9  $\pm$  0.03  &  -0.18 $\pm$ 0.01 \\
+
+
+\hline
+
+\end{tabular}
+
+\end{table*}
+
+
+Our testing sample, shown in Table \ref{estrelas}, is composed of 23 M dwarf secondaries with FGK companions. The selection of the binaries/multiples was made using the \citet{Gliese-1991} catalogue of nearby stars, the \citet{Poveda-1994} catalogue of wide-binary and multiple systems of nearby stars,  the \citet{Gould-2004} list of physical HIPPARCOS binaries, the \citet{Chaname-2004} disk and halo binaries from the Revised Luyten Catalog, and \citet{Chaname-2007}. We chose only systems whose components have wide separations ($>$ 5 arcsec) and matching proper motions. Care was taken not to include fast rotators, spectroscopic binaries, and stars without proper motions into our sample.
+
+
+
+The Johnson-Cousins VRI photometry of the M dwarfs was taken mainly from \citet{Mermilliod-1997}. The JHK$_{S}$ photometry was taken from 2MASS \citep{Skrutskie-2006} except in the case of Gl 551 \citep{Bessell-1991}. We only use precise V photometry, with average uncertainties around 0.02 mag. Ten RI photometry sources are in a different system other than Johnson-Cousins and had to be converted. All parallaxes, measured from the primaries, were taken from the new reduction of the astrometric data from the HIPPARCOS satellite \citep{van_Leeuwen-2007}.
+
+
+
+The metallicity for the secondaries was obtained from high-resolution spectra of the primaries. Two methods were followed to determine the [Fe/H]: the first method, used for the majority of the stars, consists in the calculation of the stellar parameters of the star, following the procedure described in \citet{Santos-2004b}, by imposing excitation and ionization equilibrium. A grid of Kurucz model atmospheres \citep{Kurucz-1993} is used in this process, as well as the radiative transfer program MOOG \citep{Sneden-1973}. The parameters that were determined by this method are described in Table \ref{parameters}. Nine [Fe/H] values calculated with the same method were taken from  \citet{Bonfils-2005} (five stars) and \citet{Sousa-2008} (four stars).; the second method, used for five stars, is based on the determination of the metallicity from the cross correlation function, as described by \citet{Santos-2002a}. The first method used spectra taken with the FEROS spectrograph\footnote{installed on the 2.2-m ESO/MPI telescope, La Silla ESO Observatory, Chile} \citep{Kaufer-1998}. Spectra from the CORALIE\footnote{installed on the 1.20m Euler Swiss telescope, La Silla ESO Observatory, Chile} and SOPHIE\footnote{installed on the 1.93m telescope of the Observatoire de Haute-Provence, France} spectrographs \citep{Bouchy-2006} were used to derivate [Fe/H] values using the second method. 
+
+The full references for all parameters are listed in Table \ref{estrelas}. 
+
+
+
+
+
+
+\section{The test}
+\label{test}
+
+
+
+The calibration tests consist in the comparison between the metallicities obtained from the hotter M dwarf companions and the results from each of the metallicity calibrations, namely, the two \citet{Bonfils-2005} calibrations (hereafter B05(1) for the V-K,M$_{K}$ calibration, and B05(2) for the mass calibration), the \citet{Casagrande-2008} (hereafter C08), the \citet{Johnson-2009} (hereafter JA09), and \citet{Schlaufman-2010} (hereafter SL10) calibrations. All values from the calibrations were calculated from their respective expressions (see Table \ref{stats}) except in the case of the \citet{Casagrande-2008} calibration, where no expression is available: the metallicity values were kindly calculated by Luca Casagrande, using the VRIJHK$_{S}$ photometry from this paper.
+
+We did two tests. In the first one we calculated several parameters for each calibration: the offset, rms, RMS$_{p}$ and R$^{2}_{ap}$. The RMS$_{p}$, and R$^{2}_{ap}$ are, respectively, the residual mean square and the adjusted square of the multiple correlation coefficient, as described in the \citet{Schlaufman-2010} paper. A lower value of RMS$_{p}$ means that the model being tested is best suited for prediction, while a R$^{2}_{ap}$ closer to 1 signifies that the tested model explains most of the variance of the data. The values for these parameters are shown in Table \ref{stats}. The second test consisted in a bootstrap analysis where we made 10.000 trials using, for each trial, 1 $\sigma$ of randomly chosen data points from the full sample. Then, we calculated the quantities described in the first test. The results for this test are described in Table \ref{bootstrap}.  
+
+\begin{table*}[]
+\caption{Comparison of the offset, rms, residual mean square (RMS$_{P}$), and adjusted square of the multiple correlation coefficient (R$^{2}_{ap}$) of the calibrations of \citet{Bonfils-2005}, \citet{Casagrande-2008}, \citet{Johnson-2009}, and \citet{Schlaufman-2010} applied to our data. $RMS_{P}$ and $R^{2}_{ap}$ definitions were taken from \citet{Schlaufman-2010}.}
+\label{stats}
+\begin{center}
+\begin{tabular}{c r r r r}
+
+\hline
+\hline
+Calibration Source + equation&offset&rms&RMS$_{P}$&R$^{2}_{ap}$\\
+	&[dex]&[dex]&[dex]& \\
+\hline
+B05 (1) : $[Fe/H] = 0.196 - 1.527M_{K} + 0.091M_{K}^{2} + 1.886(V-K) - 0.142(V-K)^{2}$ & -0.07 & 0.19 & 0.04 & 0.39 \\
+B05 (2) : $[Fe/H] = -0.149 - 6.508\Delta M, \Delta M = Mass_{V} - Mass_{K}$ & -0.09 & 0.22 & 0.05 & 0.18 \\
+C08 : - & -0.12 & 0.32 & 0.10 & -0.46 \\
+JA09 : $[Fe/H] = 0.56\Delta M_{K} - 0.05, \Delta M_{K} = MS - M_{K}$ & 0.15 & 0.24 & 0.06 & 0.01 \\
+SL10 : $[Fe/H] = 0.79\Delta (V-K) - 0.17, \Delta (V-K) = (V-K)_{obs} - (V-K)_{fit}$ & 0.02 & 0.19 & 0.03 & 0.41 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table*}%
+
+\begin{table*}[]
+\caption{Boostrap analysis of the data. 10.000 trials were made, where each trial used a random set of data comprised by 1 $\sigma$ of the full sample. The table depicts the evaluated parameters (offset, rms, RMS$_{p}$, and R$^{2}_{ap}$), along with the their standard deviation, for all calibrations.}
+\label{bootstrap}
+\begin{center}
+\begin{tabular}{r r c r c r c r c}
+
+\hline
+\hline
+cal  & offset  & $\sigma$ offset & rms  & $\sigma$ rms  & RMS$_{p}$  & $\sigma$ RMS$_{p}$  & R$^{2}_{ap}$  & $\sigma$ R$^{2}_{ap}$ \\
+\hline
+B05(1) & -0.07 & 0.02 & 0.19 & 0.01 & 0.04 & 0.01 & 0.34 & 0.22 \\
+B05(2) & -0.09 & 0.03 & 0.22 & 0.02 & 0.05 & 0.01 & 0.10 & 0.36 \\
+L08 & -0.12 & 0.04 & 0.31 & 0.04 & 0.10 & 0.02 & -0.62 & 0.73 \\
+JA09 & 0.14 & 0.03 & 0.24 & 0.03 & 0.06 & 0.01 & -0.04 & 0.27 \\
+SL10 & 0.02 & 0.03 & 0.19 & 0.02 & 0.03 & 0.01 & 0.38 & 0.16 \\
+\hline
+\end {tabular}
+\end{center}
+\end{table*}
+
+
+Fig. \ref{fehfeh} shows the plots of the [Fe/H] obtained from the calibrations versus the spectroscopic [Fe/H]. The blue dots with error bars represent the data points and the black line depicts a one to one relationship. Below each plot is shown the metallicity difference between the calibrations and the spectroscopic values. The black dashed line is the zero point of the metallicity difference, and the red dotted line represents the average of the metallicity difference. Table \ref{tablefehfeh} displays the metallicity values from spectroscopy and the different calibrations, where the individual values for each star can be directly compared.
+%Figs. \ref{calib} and \ref{fehfeh} show the plots of the different metallicity calibrations and the plots of the [Fe/H] obtained from the calibrations versus the spectroscopic [Fe/H], respectively. The blue dots with error bars represent the data points and the black line depicts the different calibration models and the metallicity one to one relationship, respectively. Table \ref{tablefehfeh} displays the metallicity values from spectroscopy and the different calibrations. %Table \ref{stats} displays the different equations for each calibration, \textit{when relevant}, as well as the dispersion around the mean value ($rms$), the residual mean square ($RMS_{p}$), and the adjusted square of the multiple correlation coefficient ($R^{2}_{ap}$).  $RMS_{p}$ and $R^{2}_{ap}$ were taken from \citet{Schlaufman-2010}. 
+
+
+
+\begin{figure*}
+\begin{center}
+\subfigure[B05(1) Calibration]{\includegraphics[scale=0.35]{pics/fehfehb051.pdf}}
+\subfigure[B05(2) Calibration]{\includegraphics[scale=0.35]{pics/fehfehb052.pdf}}
+\subfigure[C08 Calibration]{\includegraphics[scale=0.35]{pics/fehfehc08.pdf}}
+\subfigure[JA09 Calibration]{\includegraphics[scale=0.35]{pics/fehfehja09.pdf}}
+\subfigure[SL10 Calibration]{\includegraphics[scale=0.35]{pics/fehfehsl10.pdf}}
+
+\end{center}
+\caption{[Fe/H] of the calibrations versus the spectroscopic metallicity. The tested calibrations are from \citet{Bonfils-2005} (a and b), \citet{Casagrande-2008} (c), \citet{Johnson-2009} (d), and \citet{Schlaufman-2010} (e). The blue dots with error bars represent the data points. The black line depicts a one to one relationship. The metallicity difference between the values of the calibrations and the spectroscopic measurements is shown below each [Fe/H]-[Fe/H] plot. The black dashed line is the zero point of the difference, and the red dotted line represents the average of the metallicity difference.  }
+\label{fehfeh}
+\end{figure*}
+
+\begin{table*}[]
+\caption{Metallicity values from spectroscopy and for the calibrations of \citet{Bonfils-2005}, \citet{Casagrande-2008}, \citet{Johnson-2009}, and \citet{Schlaufman-2010}.}
+\label{tablefehfeh}
+\begin{center}
+\begin{tabular}{r r r r r r r r}
+
+\hline
+\hline
+
+Primary & Secondary & \multicolumn{5}{c}{[Fe/H] [dex]}  \\
+ & & Spectroscopic & B05(1) & B05(2) & C08 & JA09 & SL10 \\
+\hline
+Gl53.1A & Gl53.1B & 0.07 & -0.21 & -0.19 & -0.07 & -0.05 & -0.17 \\
+Gl56.3A & Gl56.3B & 0.00 & -0.34 & -0.42 & -0.21 & -0.07 & -0.21 \\
+Gl81.1A & Gl81.1B & 0.08 & -0.22 & -0.30 & -0.08 & 0.02 & -0.10 \\
+Gl100 & Gl100C & -0.27 & -0.39 & -0.38 & -0.10 & -0.31 & -0.41 \\
+Gl105A & Gl105B & -0.17 & -0.18 & -0.18 & -0.30 & -0.03 & -0.15 \\
+Gl140.1A & Gl140.1B & -0.41 & -0.38 & -0.44 & -0.30 & -0.12 & -0.25 \\
+Gl157A & Gl157B & -0.13 & 0.04 & 0.13 & -0.10 & 0.36 & 0.20 \\
+Gl173.1A & Gl173.1B & -0.33 & -0.27 & -0.25 & -0.20 & -0.14 & -0.25 \\
+Gl186.1A & Gl186.1B & -0.75 & -0.50 & -0.56 & -0.66 & -0.22 & -0.37 \\
+Gl211 & Gl212 & 0.04 & -0.08 & -0.09 & -0.21 & 0.15 & 0.04 \\
+Gl231.1A & Gl231.1B & 0.01 & -0.11 & -0.06 & -0.28 & 0.15 & 0.01 \\
+Gl250A & Gl250B & -0.15 & -0.18 & -0.14 & - & 0.04 & -0.09 \\
+Gl282A & Gl282B & -0.04 & -0.30 & -0.41 & 0.00 & -0.01 & -0.16 \\
+Gl297.2A & Gl297.2B & 0.03 & 0.00 & 0.05 & 0.00 & 0.27 & 0.13 \\
+Gl324A & Gl324B & 0.32 & -0.01 & 0.04 & -0.20 & 0.34 & 0.22 \\
+Gl384A & Gl384B & -0.01 & 0.01 & -0.20 & - & 0.23 & 0.06 \\
+Gl559A & Gl551 & 0.19 & 0.06 & -0.08 & - & 0.19 & 0.20 \\
+GJ653 & GJ654 & -0.62 & -0.27 & -0.26 & -0.30 & -0.07 & -0.19 \\
+Gl797A & Gl797B & -0.07 & -0.02 & 0.04 & -0.90 & 0.25 & 0.11 \\
+GJ3091A & GJ3092B & 0.02 & -0.15 & -0.22 & -0.30 & -0.15 & -0.27 \\
+GJ3194A & GJ3195B & 0.00 & -0.19 & -0.14 & -0.60 & 0.04 & -0.10 \\
+GJ3627A & GJ3628B & -0.04 & -0.10 & -0.06 & -0.20 & 0.16 & 0.03 \\
+NLTT34353 & NLTT34357 & -0.18 & -0.34 & -0.38 & 0.19 & -0.10 & -0.22 \\
+
+\hline
+\end {tabular}
+\end{center}
+\end{table*}
+
+Following the plots from Fig. \ref{fehfeh} and Table \ref{stats} we can observe that all calibrations fit the data reasonably well, except in the case of C08 and JA09. These calibrations suffer from a big offset (0.12 and -0.15 dex, respectively). The C08 calibration has also the worst rms, RMS$_{p}$ and R$^{2}_{ap}$ values. \textbf{The negative R$^{2}_{ap}$ value of this calibration means that the used model is increasing the variance when compared to a constant model}. On the other hand, the B05(1) and the SL10 calibration have the smallest values on all the parameters except for the offset, where the SL10 calibration has a much lower value (-0.02 dex) that the one from B05(1) calibration (0.07 dex). This means that the best calibration for our sample is the one of SL10 and that this model is the best suited for prediction as well as explaining the variance of the data.   
+
+In order to confirm our findings, we made a bootstrap analysis. The results, depicted in Table \ref{bootstrap}, show that the offset, rms, and RMS$_{p}$ values are robust, with only a small variation, and equal or very similar to the ones obtained from the analysis of the full sample. The bootstrap analysis confirms that the SL10 is best calibration so far for predicting metallicities of M dwarfs. However, the R$^{2}_{ap}$ standard deviation values imply a large variation of this parameter when using different sub-samples. This may mean that this parameter is not well suited for explaining the goodness-of-fit of a model, at least for small samples. Nevertheless, the SL10 model is confirmed to be the best, having the highest R$^{2}_{ap}$ value (0.38) with the lowest dispersion (0.16). 
+
+
+
+
+
+%Regarding the remaining calibrations, the best one is the one from Sl10, which has a very small offset (-0.02 dex) and the smallest $rms$ value (0.19 dex) of all calibrations. The calibration of SL10 has the smallest value of $RMSp$ and $R^{2}_{ap}$. This means that this model is best suited for prediction as well as the best in explaining the variance of the data. This trends can be seen more clearly in Figs. \ref{residuals} and \ref{fehfeh}.
+
+The results also show that the B05 and JA09 models respectively underestimate and overestimate the metallicity in the limits of their range, as it is clearly seen in Fig. \ref{fehfeh} in accordance with the findings of \citet{Schlaufman-2010}. 
+
+SL10 reports that the BO5(1) calibration has a R$^{2}_{ap}$ value lower than 0.05. Our findings, however, show that the BO5(1) model can explain the variance of the data much better than that, with a R$^{2}_{ap}$ value of 0.39, very close to the value of SL10 (0.41). Therefore, the statement of SL10 that their model explains almost an order of magnitude more of the variance of the calibration sample, relative to the B05(1) model, is not confirmed.
+
+The calibration of \citet{Rojas-Ayala-2010} is reported as having a RMS$_{p}$ of only 0.02 and an R$^{2}_{ap} = 0.63$, with a dispersion of only 0.15 dex. Therefore, it would be very interesting to test it. Unfortunately, we were not able to do it because we lack the infrared spectra to measure the spectral indexes.   We were able to do an external test, by comparing the measurements of the five stars in common (Gl 212, Gl 231.1B, Gl 250B, Gl 324B, and Gl 797B , with predicted [Fe/H] of 0.09, -0.05, -0.04, 0.3, and -0.06 dex respectively). We got a value of only 0.06 dex for the dispersion and a 0.02 dex offset between the spectroscopic measurements and \citet{Rojas-Ayala-2010} predicted metallicities. This number has little significance, but it may give a hint that the calibration is compatible with the spectroscopic measurements.
+
+
+
+%%%METER AQUI UM PARAGRAFO SOBRE O SL10 E O NORDSTROM!
+
+%%% O que dizer sobre a ROJAS?
+
+
+
+
+
+\section {Discussion}
+\label{discussion}
+
+In this paper we tested the metallicity calibrations of \citet{Bonfils-2005}, \citet{Johnson-2009}, \citet{Casagrande-2008}, and \citet{Schlaufman-2010}, using precise metallicity determinations from binary/multiple systems and precise VRIJHK$_{S}$ photometry. We conclude that, at present, the best calibration for M dwarfs is the one from \citet{Schlaufman-2010}. This calibration is the best in all tested parameters: it has the lowest zero-point offset, dispersion, RMS$_{P}$ and, with a $R^{2}_{ap} = 0.41$, is the best in explaining the variance of the data. Unfortunately we were not unable to test the \citet{Rojas-Ayala-2010} calibration. Therefore, we cannot confirm or deny if this calibration is better than the one of \citet{Schlaufman-2010}. However, our limited external test with five stars is encouraging and suggests that this calibration should be properly tested. 
+
+The impact of the precision of V photometry on the final precision of some of the calibrations (B05, JA09, SL10) have been recently discussed. In this paper we use precise V photometry, with an average precision of $\sim$ 0.02 mag, and conclude that the use of precise photometry does not impact the final dispersion of the mentioned calibrations: there is not a significant decrease of the obtained rms when compared to the dispersion reported in the original papers. 
+
+The precise determination of metallicities of M dwarfs is very important in the understanding of the formation and evolution of planets around very low mass stars, as well as for studies about the star-planet connection. Some questions are left unanswered, such as whether [Fe/H] or mass are the most important in the planet formation around M dwarfs, or whether the relation between the higher frequency of planets around stars that are richer in [Fe/H] is true for M stars or not. In order to answer these questions, a more precise metallicity determination is needed, either by doing a better calibration, or by exploring other approaches, such as using spectral indexes, like \citet{Woolf-2006}, and \citet{Rojas-Ayala-2010}, or by finding a way to directly measure the stellar parameters of M dwarfs, either empirically (e.g. \citeauthor{Woolf-2005} \citeyear{Woolf-2005}) or by using synthetic spectra (e.g. \citeauthor{Bean-2006} \citeyear{Bean-2006}). 
+
+In the near future, we aim to create a photometric metallicity calibration that can reach a precision of the order of $\sim$ 0.05 dex, as well as finding new ways to directly determine the metallicity and other parameters (such as effective temperature) from the M dwarf spectra. In this paper we did not address the planet-metallicity correlation, but we intend to do it in the future. 
+
+
+%falar um pouco a dizer que infelizmente n podemos dizer grande coisa sobre os planetas mas que tentaremos responder a essas questoes num futuro proximo.
+%FAZER bootstrap do sample e ESCREVER que a V photometry n e uma limitacao na determinacao do feh
+%
+
+\begin{acknowledgements}
+%				      
+%We thank the Swiss National Research Foundation (FNRS) and the Geneva 
+%University for their continuous support to our planet search programmes. 
+We acknowledge the support by the European Research Council/European Community under the FP7 through Starting Grant agreement number 239953. NCS also acknowledges the support from Funda\c{c}\~ao para a Ci\^encia e a Tecnologia (FCT) through program Ci\^encia\,2007 funded by FCT/MCTES (Portugal) and POPH/FSE (EC), and in the form of grant reference PTDC/CTE-AST/098528/2008. VN would also like to acknowledge the support from FCT in the form of the fellowship SFRH/BD/60688/2009. 
+
+\end{acknowledgements}
+
+
+\bibliographystyle{aa}
+\bibliography{mylib.bib}
+
+\end{document}
+
+
+
+
+
+
+
+
+%\begin{table}[b]
+%\caption{Stellar parameters for \object{HD\,45652}.}
+%\label{table:hd45652_star}
+%\begin{tabular}{lcc}
+%\hline\hline
+%\noalign{\smallskip}
+%Parameter  & Value & Reference \\
+%\hline
+%Spectral~type                   & K5/G8-K0              & Hipparcos/This Paper \\
+%$m_v$                           & 8.1                   & Hipparcos \\
+%$B-V$                           & 0.85                  & Hipparcos \\
+%Distance~[pc]                   & 36$\pm$2              & Hipparcos \\
+%$v~\sin{i}$~[km~s$^{-1}$]       & $<$2$\dagger$  	& This paper \\
+%$\log{R'_\mathrm{HK}}$	        & $-$4.90$\pm$0.10$\dagger\dagger$      & This paper \\
+%$T_{\rm eff}$~[K]               & 5312$~\pm~$68         & This paper \\
+%$\log{g}$~[cgi]                 & 4.32$~\pm~$0.21       & This paper \\
+%$\xi_{\mathrm{t}}$              & 0.89$~\pm~$0.09       & This paper \\
+%${\rm [Fe/H]}$                  & $+$0.29$~\pm~$0.07    & This paper \\
+%Mass~$[M_{\odot}]$              & 0.83$\pm$0.05         & This paper \\
+%\hline
+%\noalign{\smallskip}
+%\end{tabular}
+%\newline
+%$\dagger$ From ELODIE spectra using a calibration similar to the one presented by \citet{Santos-2002a}\\
+%$\dagger\dagger$ From SOPHIE spectra using a calibration similar to the one presented by \citet{Santos-2000a}
+%\end{table}
+%
+%
+%\begin{figure}[t]
+%\resizebox{\hsize}{!}{\includegraphics{09402F2.eps}}
+%\caption{{\it Top}: ELODIE (red circles), CORALIE (blue squares), and SOPHIE (magenta diamonds) 
+%radial-velocities for HD\,45652 as a function of time, and the best Keplerian fit to the 
+%data. {\it Bottom}: residuals of the fit.} 
+%\label{fig:time}
+%\end{figure}
+%
+%

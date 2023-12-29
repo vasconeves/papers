@@ -1,0 +1,96 @@
+\begin{thebibliography}{20}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Bean} {et~al.}(2006){Bean}, {Sneden}, {Hauschildt}, {Johns-Krull},
+  \& {Benedict}}]{Bean-2006}
+{Bean}, J.~L., {Sneden}, C., {Hauschildt}, P.~H., {Johns-Krull}, C.~M., \&
+  {Benedict}, G.~F. 2006, \apj, 652, 1604
+
+\bibitem[{{Blackwell} \& {Shallis}(1977)}]{Blackwell-1977}
+{Blackwell}, D.~E. \& {Shallis}, M.~J. 1977, MNRAS, 180, 177
+
+\bibitem[{{Bonfils} {et~al.}(2005){Bonfils}, {Delfosse}, {Udry}, {Santos},
+  {Forveille}, \& {S{\'e}gransan}}]{Bonfils-2005}
+{Bonfils}, X., {Delfosse}, X., {Udry}, S., {et~al.} 2005, A\&A, 442, 635
+
+\bibitem[{{Boyajian} {et~al.}(2012){Boyajian}, {von Braun}, {van Belle},
+  {McAlister}, {ten Brummelaar}, {Kane}, {Muirhead}, {Jones}, {White},
+  {Schaefer}, {Ciardi}, {Henry}, {L{\'o}pez-Morales}, {Ridgway}, {Gies}, {Jao},
+  {Rojas-Ayala}, {Parks}, {Sturmann}, {Sturmann}, {Turner}, {Farrington},
+  {Goldfinger}, \& {Berger}}]{Boyajian-2012}
+{Boyajian}, T.~S., {von Braun}, K., {van Belle}, G., {et~al.} 2012, ApJ, 757,
+  112
+
+\bibitem[{{Casagrande} {et~al.}(2008){Casagrande}, {Flynn}, \&
+  {Bessell}}]{Casagrande-2008}
+{Casagrande}, L., {Flynn}, C., \& {Bessell}, M. 2008, MNRAS, 389, 585
+
+\bibitem[{{Delfosse} {et~al.}(2012){Delfosse}, {Bonfils}, {Forveille}, {Udry},
+  {Mayor}, {Bouchy}, {Gillon}, {Lovis}, {Neves}, {Pepe}, {Perrier}, {Queloz},
+  {Santos}, \& {S{\'e}gransan}}]{Delfosse-2012}
+{Delfosse}, X., {Bonfils}, X., {Forveille}, T., {et~al.} 2012, ArXiv e-prints
+
+\bibitem[{{Delfosse} {et~al.}(2000){Delfosse}, {Forveille}, {S{\'e}gransan},
+  {Beuzit}, {Udry}, {Perrier}, \& {Mayor}}]{Delfosse-2000}
+{Delfosse}, X., {Forveille}, T., {S{\'e}gransan}, D., {et~al.} 2000, A\&A, 364,
+  217
+
+\bibitem[{{Johnson} \& {Apps}(2009)}]{Johnson-2009}
+{Johnson}, J.~A. \& {Apps}, K. 2009, ApJ, 699, 933
+
+\bibitem[{{L{\'e}pine} \& {Shara}(2005)}]{Lepine-2005}
+{L{\'e}pine}, S. \& {Shara}, M.~M. 2005, AJ, 129, 1483
+
+\bibitem[{{Mann} {et~al.}(2012){Mann}, {Brewer}, {Gaidos}, {Lepine}, \&
+  {Hilton}}]{Mann-2012}
+{Mann}, A.~W., {Brewer}, J.~M., {Gaidos}, E., {Lepine}, S., \& {Hilton}, E.~J.
+  2012, ArXiv e-prints
+
+\bibitem[{{Neves} {et~al.}(2012{\natexlab{a}}){Neves}, {Bonfils}, {Santos},
+  {Delfosse}, {Forveille}, {Allard}, {Nat{\'a}rio}, {Fernandes}, \&
+  {Udry}}]{Neves-2012}
+{Neves}, V., {Bonfils}, X., {Santos}, N.~C., {et~al.} 2012{\natexlab{a}}, a\&a,
+  538, A25
+
+\bibitem[{{Neves} {et~al.}(2012{\natexlab{b}}){Neves}, {Bonfils}, {Santos},
+  {Delfosse}, {Forveille}, {Allard}, \& {Udry}}]{Neves-2012b}
+{Neves}, V., {Bonfils}, X., {Santos}, N.~C., {et~al.} 2012{\natexlab{b}}, ArXiv
+  e-prints
+
+\bibitem[{{{\"O}nehag} {et~al.}(2012){{\"O}nehag}, {Heiter}, {Gustafsson},
+  {Piskunov}, {Plez}, \& {Reiners}}]{Onehag-2012}
+{{\"O}nehag}, A., {Heiter}, U., {Gustafsson}, B., {et~al.} 2012, A\&A, 542, A33
+
+\bibitem[{{Rojas-Ayala} {et~al.}(2012){Rojas-Ayala}, {Covey}, {Muirhead}, \&
+  {Lloyd}}]{Rojas-Ayala-2012}
+{Rojas-Ayala}, B., {Covey}, K.~R., {Muirhead}, P.~S., \& {Lloyd}, J.~P. 2012,
+  \apj, 748, 93
+
+\bibitem[{{Schlaufman} \& {Laughlin}(2010)}]{Schlaufman-2010}
+{Schlaufman}, K.~C. \& {Laughlin}, G. 2010, A\&A, 519, A105+
+
+\bibitem[{{Skrutskie} {et~al.}(2006){Skrutskie}, {Cutri}, {Stiening},
+  {Weinberg}, {Schneider}, {Carpenter}, {Beichman}, {Capps}, {Chester},
+  {Elias}, {Huchra}, {Liebert}, {Lonsdale}, {Monet}, {Price}, {Seitzer},
+  {Jarrett}, {Kirkpatrick}, {Gizis}, {Howard}, {Evans}, {Fowler}, {Fullmer},
+  {Hurt}, {Light}, {Kopan}, {Marsh}, {McCallon}, {Tam}, {Van Dyk}, \&
+  {Wheelock}}]{Skrutskie-2006}
+{Skrutskie}, M.~F., {Cutri}, R.~M., {Stiening}, R., {et~al.} 2006, AJ, 131,
+  1163
+
+\bibitem[{{Southworth}(2011)}]{Southworth-2011}
+{Southworth}, J. 2011, \mnras, 417, 2166
+
+\bibitem[{{Terrien} {et~al.}(2012){Terrien}, {Mahadevan}, {Bender},
+  {Deshpande}, {Ramsey}, \& {Bochanski}}]{Terrien-2012}
+{Terrien}, R.~C., {Mahadevan}, S., {Bender}, C.~F., {et~al.} 2012, \apjl, 747,
+  L38
+
+\bibitem[{{Valenti} {et~al.}(1998){Valenti}, {Piskunov}, \&
+  {Johns-Krull}}]{Valenti-1998}
+{Valenti}, J.~A., {Piskunov}, N., \& {Johns-Krull}, C.~M. 1998, ApJ, 498, 851
+
+\bibitem[{{Woolf} \& {Wallerstein}(2005)}]{Woolf-2005}
+{Woolf}, V.~M. \& {Wallerstein}, G. 2005, MNRAS, 356, 963
+
+\end{thebibliography}
